@@ -1,4 +1,5 @@
 # Build The Earth Guide
+
 [![Documentation Status](https://readthedocs.org/projects/bteguide/badge/?version=latest)](https://bteguide.readthedocs.io/en/latest/?badge=latest)
 
 Hey! If you're here, you're probably looking for the source, aren't you? Looking to contribute? Perfect!
@@ -13,4 +14,4 @@ We've included `sphinx-autobuild` with the guide, so if you want to use live-rel
 
 ## Translation
 
-We're working on enabling proper i18n for the guide! Ping **Xylotrupes#6278** or **EzraEn#4291** to have your work included!
+We're working on enabling proper `i18n` for the guide! Ping **Xylotrupes#6278** or **EzraEn#4291** to have your work included!
