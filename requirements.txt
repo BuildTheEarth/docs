@@ -1,4 +1,5 @@
 sphinx
+recommonmark
 git+https://github.com/bashtage/sphinx-material.git
 sphinx-autobuild
 sphinx-intl
