@@ -22,7 +22,7 @@ copyright = '2020, Build The Earth Contributors'
 author = 'Build The Earth Contributors'
 
 # The full version, including alpha/beta/rc tags
-release = '1.0'
+release = ''
 
 
 # -- General configuration ---------------------------------------------------
@@ -71,20 +71,21 @@ html_theme_options = {
     # This option is disabled, modify the logo (touch_icon) via _templates/header.html
     #'logo': 'img/BTEarth.gif',
 
-    # Set the color and the accent color
+    # Set the style
     'color_primary': 'blue',
     'color_accent': 'light-blue',
+    'logo': 'img/BTELogo.gif',
 
     # Specify a base_url used to generate sitemap.xml. If not specified, then
     # no sitemap will be built.
-    #'base_url': 'https://project.github.io/project',
+    #'base_url': 'https://project.github.io/project', 
 
     # Set the repo location to get a badge with stats
     #'repo_url': 'https://github.com/project/project/',
     #'repo_name': 'Project',
 
-    'html_minify': True,
-    'css_minify': True,
+    #'html_minify': True,
+    #'css_minify': True,
 
     # Visible levels of the global TOC; -1 means unlimited
     'globaltoc_depth': 3,
@@ -92,6 +93,8 @@ html_theme_options = {
     'globaltoc_collapse': False,
     # If True, show hidden TOC entries
     'globaltoc_includehidden': False,
+
+    'version_json': 'versions.json'
 
     # Set your GA account ID to enable tracking
     #'google_analytics_account': 'UA-XXXXX',
