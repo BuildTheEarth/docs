@@ -60,6 +60,15 @@ html_theme = 'sphinx_material'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+html_css_files = [
+    'stylesheets/override.css',
+    'stylesheets/textstyles.css'
+]
+
+# This is sorta like a header, but for reST across the entire docs.
+rst_prolog = """
+.. include:: /.textstyles.rst
+"""
 
 
 # -- Material theme options (see theme.conf for more information)-------------
@@ -81,7 +90,7 @@ html_theme_options = {
 
     # Set the repo location to get a badge with stats
     'repo_url': 'https://github.com/EzraEn1/bteguide/',
-    'repo_name': 'bteguide',
+    'repo_name': 'Build The Earth Guide',
 
     # Uncomment these options in production. Debug options only.
     #'html_minify': True,
@@ -95,6 +104,7 @@ html_theme_options = {
     'globaltoc_includehidden': False,
 
     # For future versioning, should be handled thru tags
+    'version_dropdown': False,
     'version_json': 'versions.json'
 
     # Set your GA account ID to enable tracking
