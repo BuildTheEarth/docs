@@ -1,0 +1,22 @@
+<nav class="md-nav md-nav--primary" data-md-level="0">
+    <label class="md-nav__title md-nav__title--site" for="__drawer">
+      <a href="{{ pathto(master_doc)|e }}" title="{{ docstitle|striptags|e }}" class="md-nav__button md-logo">
+        {% if theme_logo_icon %}
+          <i class="md-icon">{{ theme_logo_icon }}</i>
+        <!--Same issue here as in header.html, had to swap out 'logo'
+        for 'theme_touch_icon'because 'logo' isn't an enabled option.-->
+        {% else %}
+          <img src="{{ pathto('_static/' ~ theme_touch_icon, 1) }}" alt="{{ html_title }} logo" width="48" height="48">
+        {% endif %}
+      </a>
+      <a href="{{ pathto(master_doc)|e }}"
+         title="{{ docstitle|striptags|e }}">{{ theme_nav_title or shorttitle }}</a>
+    </label>
+    {%- if theme_repo_url %}
+      <div class="md-nav__source">
+        {% include "repo.html" %}
+      </div>
+    {% endif %}
+    {% include "globaltoc.html" %}
+  </nav>
+  
