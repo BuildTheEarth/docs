@@ -8,13 +8,12 @@ Welcome to Build The Earth!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :titlesonly:
 
-
+   Building Guidebook (old) <old/index.rst>
 
 Indices and tables
 ==================
 
 * :ref:`genindex`
 * :ref:`modindex`
-* :ref:`search`
