@@ -13,6 +13,7 @@ Building Guidebook
    buildingrules
    sourcingreferences
    worldedit
+   osm
 .. 
    buildingtips
    osm
