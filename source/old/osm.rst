@@ -1,3 +1,5 @@
+.. _osmdoc:
+
 Open Street Maps (OSM)
 ======================
 .. warning:: This document has been marked for deprecation. The information in the article may be outdated. 
