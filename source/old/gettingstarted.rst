@@ -106,6 +106,10 @@ To get the coordinates of any place in the world you can:
 1. Copy them from the `Interactive Map <https://buildtheearth.net/map>`_
 2. Go to Google maps, right-click onto your point of interest and click “What is here?” click on the coordinates showing up at the bottom of the screen. Now you can copy the coordinates in the toolbar on the left.
 
+There is also a custom mod that has been made for this project only made by Smyler#7078, called `Terramap <https://www.curseforge.com/minecraft/mc-mods/terramap>`_. This mod allows you to easily teleport without having to copy-paste the gps coordinates from a web browser, or open various map websites at the desired location directly from the game.
+
+After it is installed in your modpack, you can open the map with M, and then zoom in on the location you want to go to.
+
 
 Before you build/Best Practices
 -------------------------------

@@ -90,7 +90,7 @@ There are 2 ways to find  the corners
 
 Method 1
 ~~~~~~~~
-Go to the `website <https://buildtheearth.net>`_ and log into your “MyBuildTheEarth” account
+Go to the `website <https://buildtheearth.net>`__ and log into your “MyBuildTheEarth” account
 
 Open the region you want to find the borders to.
 
@@ -162,7 +162,7 @@ Appdata is hidden as per default so search for %appdata% if you can’t see it.
 ``~/Library/Application Support/.buildtheearth/saves``
 
 
-#. Go to the `website <https://buildtheearth.net/>`_ and log in to your “MyBuildTheEarth”-account
+#. Go to the `website <https://buildtheearth.net/>`__ and log in to your “MyBuildTheEarth”-account
 #. Either select “Upload my world” in the “MyBuildTheEarth”- dropdown or open our region and select “Upload my world” at the top
 #. Search for the world file
 #. Select the regions that are included in this upload
