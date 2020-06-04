@@ -13,10 +13,9 @@ Building Guidebook
    buildingrules
    sourcingreferences
    worldedit
-   osm
-.. 
    buildingtips
    osm
+.. 
    troubleshooting
    gethelp
    usefullist
