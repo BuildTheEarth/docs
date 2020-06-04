@@ -1,8 +1,8 @@
 Useful WorldEdit commands
-===============
+=========================
 .. warning:: This document has been marked for deprecation. The information in the article may be outdated. 
 
-List of `WorldEdit commands <https://minecraft-worldedit.fandom.com/wiki/Worldedit_Commands&sa=D&ust=1591091872383000>`_
+List of `WorldEdit commands <https://minecraft-worldedit.fandom.com/wiki/Worldedit_Commands>`_
 
 Some of the commands listed below might not work on all server, talk with the server owner if some of these does not work.
 
@@ -13,7 +13,7 @@ For many WorldEdit commands you can use Block IDs to reference specific block ty
 
 To show the block IDs in the Minecraft creative menu press F3 + H. IDs will be shown as 0001/2. This translates to WorldEdit as 1:2
 
-or visit `Minecraft Block ID reference <https://minecraft-ids.grahamedgecombe.com/&sa=D&ust=1591091872384000>`_ to see all block IDs.
+or visit `Minecraft Block ID reference <https://minecraft-ids.grahamedgecombe.com/>`_ to see all block IDs.
 
 
 How to select a region using WorldEdit
@@ -110,7 +110,7 @@ A known bug is that the biome only changes in a few chunks or that the biome rev
 
 
 Stacking
-`Stacking gif <https://gfycat.com/magnificentincredibleeland&sa=D&ust=1591091872399000>`_
+`Stacking gif <https://gfycat.com/magnificentincredibleeland>`_
 
 Really good for making skyscrapers. Build the first floor of you building, and do ``//stack [floor amount] [direction]``. This will rise your building up the amounts of floors you have chosen. The direction can be up, down, north, south, east or west.
 

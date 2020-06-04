@@ -1,19 +1,19 @@
 Building Rules
-===============
+==============
 .. warning:: This document has been marked for deprecation. The information in the article may be outdated. 
 
 What does 1:1 scale mean? How big is a Minecraft block irl?
--------------------------------------------------
+-----------------------------------------------------------
 1 Minecraft block = 1 meter in real life or 1.0936133 yards
 
-For other units check out the `Minecraft Distance Measurement <https://minecraft.gamepedia.com/Tutorials/Units_of_measure%23Distance&sa=D&ust=1591091872354000>`_ section
+For other units check out the `Minecraft Distance Measurement <https://minecraft.gamepedia.com/Tutorials/Units_of_measure%23Distance>`_ section
 
 There are however stretched locations. Due to the fact that the world is not flat, some locations in the world will be stretched a bit. This is a math problem that has been worked on for hundreds of years, and we knew this going in. This means that in some places, the ratio might be 1:1.25 or even higher, meaning the buildings and distances will be larger compared to other locations in the world. You will have to research this at your location, and build accordingly. You will also have to increase the height of your building by the ratio of the location, to make sure the building does not look stretched. A safe way to do it, is to add everything to the OpenStreetMap, as this will place the buildings exactly as they should be. [a]_
 
 
 General Rules
 -------------
-See the  `Discord <https://discord.gg/buildtheearth&sa=D&ust=1591091872355000>`_  #rules for more information:
+See the  `Discord <https://discord.gg/buildtheearth>`_  #rules for more information:
 
 * No Ethnocentrism.
 * No NSFW.
@@ -25,7 +25,7 @@ See the  `Discord <https://discord.gg/buildtheearth&sa=D&ust=1591091872355000>`_
 
 
 Things you are allowed to do but might be unsure about
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * You are allowed to **change the building outlines** and roads sizes to make them look more like the real world (remember that outlines that are completely wrong should be edited in :ref:`OSM <osmdoc>` first.)
 * You are allowed to `change the biome <>`_ to fit the biome in real life.
     * The biomes are randomly generated, so they are not going to be close to how it is in real life.
@@ -41,7 +41,7 @@ Lesser know blocks that you are allowed to use:
 
 
 Things that you are :under:`not` allowed to use/do:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Do not **rotate buildings** so they are straight in Minecraft (You can make small adjustments if absolutely necessary but try to keep the orientation of buildings as the outlines show)
 * You are not allowed to **add new blocks** that are not in the default game
@@ -57,7 +57,7 @@ Things that you are :under:`not` allowed to use/do:
 
 
 Things that make the world look better:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * Try to replace the grass floor in the building with stone or concrete.
 * Cover your windows with glowstone or sea lanterns to create a nice effect during the night.
 * For bigger buildings think about creating an inner shell (otherwise you can look right through the building)
@@ -73,12 +73,12 @@ For **buildings with public sections** (lobbies, restaurants etc.) you are welco
 For **private homes, schools** and **all areas not accessible for the generals public** please do :under:`not` build any parts of the interior.
 
 Why do we not build interiors of private buildings?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The main reasons for this are privacy and security. The interiors of many buildings are sometimes critical information that and making them available for the public can present security risks. If an area is not accessible to the public there usually is a good reason why. Building restricted interiors can put the BTE project in serious trouble in the long run.
 
 
 How do I find the borders of my plot in Minecraft?
------------------------------------------
+--------------------------------------------------
 Knowing the exact borders of your plot is important as the submission system only submits your exact plot. Anything that is build outside your plot borders will not be transfered into the final world. See `What do I do if a building is on the border`_…
 
 Unfortunately an integrated plot marker system is not included in the modpack yet.
@@ -113,7 +113,7 @@ There will be a faster version of this being released by the development team, b
 
 .. image:: img/image33.png
 
-1. Log onto the website, and find your claim on the `map <https://buildtheearth.net/map&sa=D&ust=1591091872369000>`_
+1. Log onto the website, and find your claim on the `map <https://buildtheearth.net/map>`_
 
 2. Move the center of the map to one of the corners, and use the ``/tpll`` command above the map.
 
@@ -130,7 +130,7 @@ There will be a faster version of this being released by the development team, b
 
 
 What do I do if a building is on the border to another plot that you do not own?
--------------------------------------
+--------------------------------------------------------------------------------
 When you submit your world your plot will be cut at the borders of your plot so by submitting a single plot only half the house will be in the final world
 
 1. The best solution is to claim the other plot and build it as well.
@@ -162,7 +162,7 @@ Appdata is hidden as per default so search for %appdata% if you can’t see it.
 ``~/Library/Application Support/.buildtheearth/saves``
 
 
-#. Go to the `website <https://buildtheearth.net%26sa%3Dd%26ust%3D1591091872374000/>`_ and log in to your “MyBuildTheEarth”-account
+#. Go to the `website <https://buildtheearth.net/>`_ and log in to your “MyBuildTheEarth”-account
 #. Either select “Upload my world” in the “MyBuildTheEarth”- dropdown or open our region and select “Upload my world” at the top
 #. Search for the world file
 #. Select the regions that are included in this upload

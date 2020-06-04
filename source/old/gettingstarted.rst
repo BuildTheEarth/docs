@@ -18,7 +18,7 @@ Here are some tips for the beginner:
 
 Choose one or two small houses in your local area that you know very well and start building
 
-Go to the `Discord <https://discord.gg/buildtheearth&sa=D&ust=1591091872334000>`_ #progress channel and ask for building tips (e.g. Which blocks to use for different materials).
+Go to the `Discord <https://discord.gg/buildtheearth>`_ #progress channel and ask for building tips (e.g. Which blocks to use for different materials).
 
 If you want to improve your building technique check out some YouTube videos on "WorldEdit" and "Effortless Building". Both of these mods are included in the modpack and can save a lot of time.
 
@@ -27,9 +27,9 @@ Good luck and have fun!
 
 The Solo-Builder Application
 ----------------------------
-To become a builder you need to download the modpack . You can find the installer in `Discord <https://discord.gg/buildtheearth&sa=D&ust=1591091872336000>`_ #downloads.
+To become a builder you need to download the modpack . You can find the installer in `Discord <https://discord.gg/buildtheearth>`_ #downloads.
 
-The first decision you have to make is where you want to build. Check out the `Map <https://buildtheearth.net/map&sa=D&ust=1591091872336000>`_  to see which plots of land are still available. You can choose any of the unclaimed plots. Each plot is 512 x 512 meter (= Minecraft blocks) in size.
+The first decision you have to make is where you want to build. Check out the `Map <https://buildtheearth.net/map>`_  to see which plots of land are still available. You can choose any of the unclaimed plots. Each plot is 512 x 512 meter (= Minecraft blocks) in size.
 
 Before you can claim the plot you have to do some building to show that you are ready for the challenge.
 
@@ -37,9 +37,9 @@ Choose 2-5 buildings to build (these buildings should not be on the border with 
 
 When the buildings look like the real world buildings take a screenshot (The perspective of the screen shot should be the same as a real life reference image).
 
-Upload your screenshot and the reference image separately to `imgur <https://imgur.com/&sa=D&ust=1591091872337000>`_.
+Upload your screenshot and the reference image separately to `imgur <https://imgur.com/>`_.
 
-Head over to the `webpage <https://buildtheearth.net/&sa=D&ust=1591091872338000>`_ and apply for the builder position.
+Head over to the `webpage <https://buildtheearth.net/>`_ and apply for the builder position.
 
 Your application should be answered within approx. 3 days.
 
@@ -96,14 +96,14 @@ If everything went correctly you should spawn on a mushroom island in the middle
 
 How to teleport
 ~~~~~~~~~~~~~~~
-`Video tutorial <https://thumbs.gfycat.com/AdolescentWindingCentipede-mobile.mp4&sa=D&ust=1591091872343000>`_
+`Video tutorial <https://thumbs.gfycat.com/AdolescentWindingCentipede-mobile.mp4>`_
 
 You can teleport to any location in the world using the command ``/tpll x y``, for example ``/tpll 40.708838, -73.999225`` to go to New York
 
 
 To get the coordinates of any place in the world you can:
 
-1. Copy them from the `Interactive Map <https://buildtheearth.net/map&sa=D&ust=1591091872344000>`_
+1. Copy them from the `Interactive Map <https://buildtheearth.net/map>`_
 2. Go to Google maps, right-click onto your point of interest and click “What is here?” click on the coordinates showing up at the bottom of the screen. Now you can copy the coordinates in the toolbar on the left.
 
 
@@ -113,8 +113,9 @@ Everybody has their own way to go about starting a build, however there are some
 
 1. Make sure that your plot is not already claimed.
 2. :ref:`/tpll <tpll>` to your coordinates and have a look around the plot to see the layout, orientation and identify missing features. (to find the corners of your plot go to “MyBuildTheEarth” on the webpage and click on your region. You will find the x and y coordinates of the corners there.)
-3. | Go to `OpenStreetMaps <https://www.openstreetmap.org/&sa=D&ust=1591091872346000>`_ (OSM) and check if your area has been mapped completely and accurately. `More info on OSM <>`_
+3. | Go to `OpenStreetMaps <https://www.openstreetmap.org/>`_ (OSM) and check if your area has been mapped completely and accurately. `More info on OSM <osmdoc>`_
    | :under:`If the mapping is not correct:`
+
    a. Create an account and edit the map on OSM
    b. Give the changes 30-60 min to update
    c. Select your plot using the WorldEdit ``//wand`` and use ``//regen`` to update
