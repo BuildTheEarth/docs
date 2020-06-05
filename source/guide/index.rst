@@ -3,9 +3,10 @@ Build The Earth Guide
 
 .. toctree::
    :caption: Table of Contents
-   :name: New Guide
+   :name: Building Guidebook (New)
    :numbered:
    :titlesonly:
    :maxdepth: 2
 
-   discord
+   discord-channels
+   discord-roles
