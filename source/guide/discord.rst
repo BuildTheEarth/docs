@@ -1,13 +1,6 @@
-BTE Discord
-===========
+BTE Discord Roles
+=================
 
-Discord channels
-----------------
-
-
-
-Discord roles
--------------
 In this section we will explain all the roles of the BTE Discord_. Here you find what each role does, what perks come with it and how you can obtain the role.
 
 Staff
@@ -142,7 +135,7 @@ Reviewer
 
 These guys review for building applications to make sure we get quality content. Being a Reviwer is also a good test phase to becoming a full staff member because we get to know you a bit better.
 
-If you want to become a reviwer apply here: `Reviwer Application`_
+If you want to become a reviwer apply here: `Reviewer Application`_
 
 **What we look for:** You should have some good building skills in Minecraft.
 
@@ -183,8 +176,21 @@ Here is what you get for becomming a Patreon:
 Verified Content Creator
 ++++++++++++++++++++++++
 
+Content creators are BTE ambassadors who create official BTE Videos and streams in partnership with the server. They are allowed to advertise their videos and other content on the server.
+
+To become a Verified Content Creator make sure to be actively building and create BTE related content and apply here `Creator Application`_.
+
 Verified Streamer
 +++++++++++++++++
+
+Verified streamers are `Verified Content Creator`_\ s that produce streams. They are allowed to post their streams in the `#verfied-streams`_ channel. 
+
+To become a Verified Content Creator make sure to be actively building and create BTE related content and apply here `Creator Application`_.
+
+Influencer
+++++++++++
+
+Very similar to `Verified Content Creator`_ and `Verified Streamer`_ but with more than 10,000 Subscribers. You will get this role when you are applying to become a Content Creator: `Creator Application`_
 
 Donator
 +++++++
@@ -197,10 +203,12 @@ These are builders that are also the initiators/owners of a build team. They are
 Builder
 +++++++
 
-These are the verified builders of the BTE project. everybody can become a builder. You just need to Apply to become one `Builder Application`_ 
+These are the verified builders of the BTE project. Everybody can become a builder. You just need to apply on the website_ to become a builder.
 
 Youtube Subtitles
 +++++++++++++++++
+
+The Youtube subtiles role is given to people that help to translate all BTE youtube videos into different languages.
 
 Cool guys (former staff) (staffn't)
 +++++++++++++++++++++++++++++++++++
@@ -212,35 +220,65 @@ Reward roles
 
 Reward roles are obtained by being active on the Discord_. Each message you write counts towards your rank.
 
-You can check your current rank be typing ```:?r``` in the **#bot-commands** channel on the Discord_.
+You can check your current rank be typing ```:?r``` in the `#bot-commands`_ channel on the Discord_.
+
+Here is a list of the Messages needed for each level:
+
+======= ========== ==================
+ Level   Messages         Role
+======= ========== ==================
+   1           35
+   2           55
+   3          115    Member_
+   4          215
+   5          355   `#memes-role`_
+   6          535
+   7          755
+   8         1015   `#music-role`_
+   9         1315
+  10         1655   `#minigames-role`_
+  11         2035
+  12         2455
+  13         2915
+  14         3415
+  15         3955
+  16         4535
+  17         5155
+  18         5815
+  19         6515
+  20         7255    Veteran_
+  21         8035
+  22         8855
+  23         9715
+  24        10615
+  25        11555
+======= ========== ==================
 
 Member
 ++++++
 
 Obtained at Level 3
 
-Allows access to the voice channels.
-
 #memes-role
 +++++++++++
 
 Obtained at Level 5
 
-Allows access to the **#memes** channel
+Allows access to the #memes_ channel
 
 #music-role
 +++++++++++
 
 Obtained at Level 8
 
-Allows access to the **#music** channel and to private music voice chat
+Allows access to the #music_ channel and to private music voice chat
 
 #Minigames-role
 +++++++++++++++
 
 Obtained at Level 10
 
-Allows access to the **#minigames** channel
+Allows access to the #minigames_ channel
 
 Veteran
 +++++++
@@ -264,14 +302,14 @@ Subscribe by clicking the bell reaction under the Pipnotif_ message.
 Suggestions
 +++++++++++
 
-Enables you to write in the **#suggestions**  and the **#suggestions-discussion** channel.
+Enables you to write in the `#suggestions`_  and the `#suggestions-discussion`_ channel.
 
-Subscribe to this role by reacting to this suggestion_ message
+Subscribe to this role by reacting to this `suggestion message`_.
 
 Language roles
 ++++++++++++++
 
-The Language roles enable you to enter the language specific chats.
+The language roles enable you to enter the language specific chats.
 
 Subscribe to any language in the **#welcome** channel
 
@@ -286,6 +324,9 @@ This role is given to people that broke the rules of the Discord by Moderator_\ 
 DJ
 +++
 
+Has control over the `Rhythm bot`_ in the music channel without having to rely on the majority vote.
+This role is given out by the staff to specific trusted members.
+
 Bot
 +++
 
@@ -297,7 +338,8 @@ hepboat
 
 .. _Discord: https://discord.gg/buildtheearth
 .. _Patreon: https://www.patreon.com/user?u=32447854
-.. _suggestion: https://discordapp.com/channels/690908396404080650/692251560981430292/711990012316483605
+.. _website: https://buildtheearth.net/
+.. _`suggestion message`: https://discordapp.com/channels/690908396404080650/692251560981430292/711990012316483605
 .. _PipNotif: https://discordapp.com/channels/690908396404080650/715369975035985970/715427350392602698
 .. _`Support Application`: https://docs.google.com/forms/d/e/1FAIpQLSfgxWkOcTp_cbZGCPJFtiV4JBBwO4bMViWjFqTf43w1SacbWg/viewform
 .. _`Helper Application`: https://docs.google.com/forms/d/e/1FAIpQLSdw8Cy4Xp4Lp_T_95fvEqgns8Nmd_1TSq007_029EjZCEeU3w/viewform
@@ -306,3 +348,4 @@ hepboat
 .. _`Reviewer Application`: https://docs.google.com/forms/d/e/1FAIpQLScXjVj2AvUeyYh2tHqdalsvPbwmp5lnS_ks588paGPGXyzKDA/viewform
 .. _`Tester Application`: https://forms.gle/q6wd1QEDdMqcXkXF8
 .. _`Creator Application`:  https://docs.google.com/forms/d/1xFyjYFFOSJ4c0pyFEPFdf-MGl8XaDiZ4uDdq4AdUvEc/viewform
+
