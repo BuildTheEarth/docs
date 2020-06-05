@@ -2,19 +2,10 @@ Build The Earth Guide
 =====================
 
 .. toctree::
-    :caption: Table of Contents
-   :name: Building Guidebook (Old)
+   :caption: Table of Contents
+   :name: New Guide
    :numbered:
    :titlesonly:
    :maxdepth: 2
 
    discord
-       discord
-
-
-   .. 
-   troubleshooting
-   gethelp
-   usefullist
-   conventions
-   contributors
