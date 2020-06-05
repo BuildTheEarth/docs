@@ -313,7 +313,7 @@ Language roles
 
 The language roles enable you to enter the language specific chats.
 
-Subscribe to any language in the **#welcome** channel
+Subscribe to any language in the `#welcome discord-channels:welcome-channel`_ channel
 
 Other
 ~~~~~
