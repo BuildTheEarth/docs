@@ -1,5 +1,5 @@
-BTE Discord Roles
-=================
+BTE Discord roles
+-----------------
 
 In this section we will explain all the roles of the BTE `Discord <link:Discord>`_. Here you find what each role does, what perks come with it and how you can obtain the role.
 
@@ -183,7 +183,7 @@ To become a Verified Content Creator make sure to be actively building and creat
 Verified Streamer
 +++++++++++++++++
 
-Verified streamers are `Verified Content Creator`_\ s that produce streams. They are allowed to post their streams in the `#verfied-streams`_ channel. 
+Verified streamers are `Verified Content Creator`_\ s that produce streams. They are allowed to post their streams in the `#verfied-streams <verified-streams-channel>`_ channel. 
 
 To become a Verified Content Creator make sure to be actively building and create BTE related content and apply here `Creator Application <links:Creator Application>`_.
 
@@ -220,7 +220,7 @@ Reward roles
 
 Reward roles are obtained by being active on the `Discord <link:Discord>`_. Each message you write counts towards your rank.
 
-You can check your current rank be typing ```:?r``` in the `#bot-commands`_ channel on the `Discord <link:Discord>`_.
+You can check your current rank be typing ```:?r``` in the `#bot-commands <bot-commands-channel>`_ channel on the Discord_.
 
 Here is a list of the Messages needed for each level:
 
@@ -264,21 +264,21 @@ Obtained at Level 3
 
 Obtained at Level 5
 
-Allows access to the #memes_ channel
+Allows access to the `#memes <memes-channel>`_ channel.
 
 #music-role
 +++++++++++
 
 Obtained at Level 8
 
-Allows access to the #music_ channel and to private music voice chat
+Allows access to the `#music <music-channel>`_ channel and to private music voice chat
 
 #Minigames-role
 +++++++++++++++
 
 Obtained at Level 10
 
-Allows access to the #minigames_ channel
+Allows access to the `#minigames <minigames-channel>`_ channel
 
 Veteran
 +++++++
@@ -302,7 +302,7 @@ Subscribe by clicking the bell reaction under the Pipnotif_ message.
 Suggestions
 +++++++++++
 
-Enables you to write in the `#suggestions`_  and the `#suggestions-discussion`_ channel.
+Enables you to write in the `#suggestions <suggestions-channel>`_  and the `#suggestions-discussion <suggestions-discussion-channel>`_ channel.
 
 Subscribe to this role by reacting to this `suggestion message`_.
 
