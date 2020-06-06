@@ -1,9 +1,9 @@
-.. _roles:
+.. _discord-roles:
 
 BTE Discord roles
 -----------------
 
-In this section we will explain all the roles of the BTE `Discord <links:Discord>`_. Here you find what each role does, what perks come with it and how you can obtain the role.
+In this section we will explain all the roles of the BTE `Discord`_. Here you find what each role does, what perks come with it and how you can obtain the role.
 
 Staff
 ~~~~~
@@ -12,21 +12,21 @@ Author
 ++++++
 
 The author of the BTE project is PippenFTS.
-He has all permissions on the `Discord <links:Discord>`_ and the last word for critical decisions
+He has all permissions on the `Discord`_ and the last word for critical decisions
 There is no possibility to obtain the author role.
 Do not DM him or ping the role.
 
 Admin
 +++++
 
-This role has all permissions, they oversee all managerial staff and put out announcements and changes to the `Discord <links:Discord>`_ server.
+This role has all permissions, they oversee all managerial staff and put out announcements and changes to the `Discord`_ server.
 Admins are long-term, trustworthy staff members and are named by the Author_.
 Do not DM the admins unless it is extremely important.
 
 Team Manager
 ++++++++++++
 
-Team Managers are leaders of the different staff branches. They have nearly all permissions on the `Discord <links:Discord>`_ and help to make things run smoothly. They focus on their  sub team and help the team members to work efficiently by distributing task and relaying inforamtion to the teams.
+Team Managers are leaders of the different staff branches. They have nearly all permissions on the `Discord`_ and help to make things run smoothly. They focus on their  sub team and help the team members to work efficiently by distributing task and relaying inforamtion to the teams.
 The team managers are chosen from the respective staff team by the Admin_\ s and go through a trial period.
 
 **Support Manager**
@@ -68,7 +68,7 @@ Organizes the creation of a minigames server (in progress)
 Moderator
 +++++++++
 
-This role helps enforce the rules on the server and moderates users. They can ban, mute and warn people in the `Discord <links:Discord>`_.
+This role helps enforce the rules on the server and moderates users. They can ban, mute and warn people in the `Discord`_.
 
 To become a Moderator you have to first go through a 3 week trial period as a Helper_.
 
@@ -82,7 +82,7 @@ Helper
 
 Helps the Moderator_\ s fulfil their duties. They can mute and warn people. Helpers are moderators on trial after three weeks they are either promoted to Moderator_, demoted or thier trial is extended.
 
-To become a helper you can apply here: `Helper Application <links:Helper Application>`_ 
+To become a helper you can apply here: `Helper Application`_ 
 
 Wizards
 +++++++
@@ -94,7 +94,7 @@ Web Developer
 
 Created and maintains the website.
 
-To become a Web Developer apply here: `Dev Application <links:Dev Application>`_ (The applications are always open for one week followed by 3 weeks of closed application)
+To become a Web Developer apply here: `Dev Application`_ (The applications are always open for one week followed by 3 weeks of closed application)
 
 Regional Build Team Manager (RBTL)
 ++++++++++++++++++++++++++++++++++
@@ -107,7 +107,7 @@ Support
 
 Provides support for the modpack, minecraft issues or the project in the support channel. They also write support documentation like this Wiki and the Builders Guidebook.
 
-To become a Support apply here: `Support Application <links:Support Application>`_ (The applications are always open for one week followed by 3 weeks of closed application)
+To become a Support apply here: `Support Application`_ (The applications are always open for one week followed by 3 weeks of closed application)
 
 **What we look for:** People that like to help others. Some techical knowledge can be helpful.
 
@@ -116,7 +116,7 @@ Public Relations (PR)
 
 They're in charge of Public Relations and help promote the project. They control all official social media channels, create Youtube Videos, tanslate the website and documentation and perform outreach activities.
 
-To join the PR team apply here `PR Application <links:PR Application>`_
+To join the PR team apply here `PR Application`_
 
 **What we look for:** The PR team needs many different types of people. 
 
@@ -125,7 +125,7 @@ Tester
 
 Tests launchers, servers, and support material for bugs and performance issues. Tests future updates and helps the developers.
 
-To become a tester apply here: `Tester Application <links:Tester Application>`_
+To become a tester apply here: `Tester Application`_
 
 **What we look for:** To become a tester some techical knowledge is important. If you have a basic understanding of Java or another programming language or have experience with creating mods we would love to have you on the team as a tester.
 
@@ -137,14 +137,14 @@ Reviewer
 
 These guys review for building applications to make sure we get quality content. Being a Reviwer is also a good test phase to becoming a full staff member because we get to know you a bit better.
 
-If you want to become a reviwer apply here: `Reviewer Application <links:Reviewer Application>`_
+If you want to become a reviwer apply here: `Reviewer Application`_
 
 **What we look for:** You should have some good building skills in Minecraft.
 
 Patreons
 ++++++++
 
-These people help the project by donating on `Patreon <links:Patreon>`_. To get this role you have to connect atreon to your Discord account.
+These people help the project by donating on `Patreon`_. To get this role you have to connect atreon to your Discord account.
 Here is what you get for becomming a Patreon:
 
 +------------+--------------------------------------------------------------+
@@ -180,19 +180,19 @@ Verified Content Creator
 
 Content creators are BTE ambassadors who create official BTE Videos and streams in partnership with the server. They are allowed to advertise their videos and other content on the server.
 
-To become a Verified Content Creator make sure to be actively building and create BTE related content and apply here `Creator Application <links:Creator Application>`_.
+To become a Verified Content Creator make sure to be actively building and create BTE related content and apply here `Creator Application`_.
 
 Verified Streamer
 +++++++++++++++++
 
 Verified streamers are `Verified Content Creator`_\ s that produce streams. They are allowed to post their streams in the `#verfied-streams <verified-streams-channel>`_ channel. 
 
-To become a Verified Content Creator make sure to be actively building and create BTE related content and apply here `Creator Application <links:Creator Application>`_.
+To become a Verified Content Creator make sure to be actively building and create BTE related content and apply here `Creator Application`_.
 
 Influencer
 ++++++++++
 
-Very similar to `Verified Content Creator`_ and `Verified Streamer`_ but with more than 10,000 Subscribers. You will get this role when you are applying to become a Content Creator: `Creator Application <links:Creator Application>`_
+Very similar to `Verified Content Creator`_ and `Verified Streamer`_ but with more than 10,000 Subscribers. You will get this role when you are applying to become a Content Creator: `Creator Application`_
 
 Donator
 +++++++
@@ -205,7 +205,7 @@ These are builders that are also the initiators/owners of a build team. They are
 Builder
 +++++++
 
-These are the verified builders of the BTE project. Everybody can become a builder. You just need to apply on the `website <links:website>`_ to become a builder.
+These are the verified builders of the BTE project. Everybody can become a builder. You just need to apply on the `website`_ to become a builder.
 
 Youtube Subtitles
 +++++++++++++++++
@@ -220,7 +220,7 @@ These people are former staff. Staff is not a life time job and sometimes member
 Reward roles
 ~~~~~~~~~~~~
 
-Reward roles are obtained by being active on the `Discord <links:Discord>`_. Each message you write counts towards your rank.
+Reward roles are obtained by being active on the `Discord`_. Each message you write counts towards your rank.
 
 You can check your current rank be typing ```:?r``` in the `#bot-commands <bot-commands-channel>`_ channel on the Discord_.
 
@@ -299,21 +299,21 @@ PipNotifs
 
 Gets notified whenever PippenFTS uploads a new video.
 
-Subscribe by clicking the bell reaction under the `Pipnotif <links:PipNotifs message>`_ message.
+Subscribe by clicking the bell reaction under the `PipNotif message`_.
 
 Suggestions
 +++++++++++
 
 Enables you to write in the `#suggestions <suggestions-channel>`_  and the `#suggestions-discussion <suggestions-discussion-channel>`_ channel.
 
-Subscribe to this role by reacting to this `suggestion message <links:suggestion message>`_.
+Subscribe to this role by reacting to this `suggestion message`_.
 
 Language roles
 ++++++++++++++
 
 The language roles enable you to enter the language specific chats.
 
-Subscribe to any language in the `#welcome discord-channels:welcome-channel`_ channel
+Subscribe to any language in the `#welcome <welcome-channel>`_ channel
 
 Other
 ~~~~~
