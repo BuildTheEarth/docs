@@ -7,20 +7,20 @@ WELCOME
 
 #welcome
 ++++++++
-The **#welcome** channel is where you will first arrive when you join the `Discord <links:Discord>`_.
+The **#welcome** channel is where you will first arrive when you join the `Discord`_.
 Here you can find a welcome message about the project and some basic information about the next steps.
 
-You can also choose your `language roles <discord-roles:Language roles>`_ by reacting to the flags in this channel.
-You can also Subscribe to notifications whenever PippenFTS posts a new video and obtain the  `PipNotifs <discord-roles:PipNotifs>`_ role and join the *#closetgang*.
+You can also choose your `Language roles <language-roles>`_ by reacting to the flags in this channel.
+You can also Subscribe to notifications whenever PippenFTS posts a new video and obtain the  `PipNotifs <PipNotifs>`_ role and join the *#closetgang*.
 
-Finally, If you want to invite friends you can the link to the `Discord <links:Discord>`_ here.
+Finally, If you want to invite friends you can the link to the `Discord`_ here.
 
 .. _server-contacts-channel:
 
 #server-contacts
 ++++++++++++++++
 
-In this channel you can find a break-down of the most important roles on the `Discord <links:Discord>`_  For a larger breakdown check out: `discord-roles`_
+In this channel you can find a break-down of the most important roles on the `Discord`_  For a larger breakdown check out `this section. <discord-roles>`_
 
 .. _rules-channel:
 

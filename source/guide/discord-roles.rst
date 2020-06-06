@@ -308,6 +308,8 @@ Enables you to write in the `#suggestions <suggestions-channel>`_  and the `#sug
 
 Subscribe to this role by reacting to this `suggestion message`_.
 
+.. _language-roles:
+
 Language roles
 ++++++++++++++
 
