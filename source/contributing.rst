@@ -114,16 +114,7 @@ the name of a language branch is `lang-xx` where xx is the `Language code <https
 
 Open the command terminal inside of your **bteguide** folder and run ``git checkout lang-xx`` if the language is already in the process of being translated the output will tell you taht you are now on the lang-xx branch.
 
-<<<<<<< HEAD
 If your target language hasn't been started on yet, you can create the branch yourself by running:
-=======
-Once you've done all of the above, translating is the next step for every document that is added.
-In order to streamline the translation process, we suggest using `Poedit <https://poedit.net>`_ for modifying the .po files. If you're familiar with platforms like CrowdIn, this will be a similar process, however everything must be done locally. 
-
-If you language is already in the process of being translated, you will find it in a Git branch in the format ``lang-xx``, where ``xx`` is the `Language code <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`_ as listed under the 639-1 column.
-
-If your target language hasn't been started on yet, you can create the branch yourself by running these commands:
->>>>>>> origin/master
 
 **Windows:**
 
@@ -141,7 +132,6 @@ If your target language hasn't been started on yet, you can create the branch yo
     make.bat gettext
     sphinx-intl update -p build/gettext -l xx
 
-<<<<<<< HEAD
 Working on the translation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -161,18 +151,6 @@ Once that's done, you will find the .po files in /locale/xx/.
         Explaination
     6. **Changing to a different language**
         Explaination
-=======
-Once that's done, you may start editing the .po files in ``/locale/xx/`` with Poedit.
-
-Once you're done with that, run these commands in the working dir to commit your changes to your fork.
-
-.. code-block:: 
-    git add source/locale/xx/*
-    git commit -m "Description of commit"
-    git push
-
-Then make a pull-request to the `main repo <https://github.com/ezraen1/bteguide>`_.
->>>>>>> origin/master
 
 
 Optional Quality-of-Life
