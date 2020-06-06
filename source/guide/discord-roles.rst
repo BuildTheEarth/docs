@@ -3,7 +3,7 @@
 BTE Discord roles
 -----------------
 
-In this section we will explain all the roles of the BTE `Discord <link:Discord>`_. Here you find what each role does, what perks come with it and how you can obtain the role.
+In this section we will explain all the roles of the BTE `Discord <links:Discord>`_. Here you find what each role does, what perks come with it and how you can obtain the role.
 
 Staff
 ~~~~~
@@ -12,21 +12,21 @@ Author
 ++++++
 
 The author of the BTE project is PippenFTS.
-He has all permissions on the `Discord <link:Discord>`_ and the last word for critical decisions
+He has all permissions on the `Discord <links:Discord>`_ and the last word for critical decisions
 There is no possibility to obtain the author role.
 Do not DM him or ping the role.
 
 Admin
 +++++
 
-This role has all permissions, they oversee all managerial staff and put out announcements and changes to the `Discord <link:Discord>`_ server.
+This role has all permissions, they oversee all managerial staff and put out announcements and changes to the `Discord <links:Discord>`_ server.
 Admins are long-term, trustworthy staff members and are named by the Author_.
 Do not DM the admins unless it is extremely important.
 
 Team Manager
 ++++++++++++
 
-Team Managers are leaders of the different staff branches. They have nearly all permissions on the `Discord <link:Discord>`_ and help to make things run smoothly. They focus on their  sub team and help the team members to work efficiently by distributing task and relaying inforamtion to the teams.
+Team Managers are leaders of the different staff branches. They have nearly all permissions on the `Discord <links:Discord>`_ and help to make things run smoothly. They focus on their  sub team and help the team members to work efficiently by distributing task and relaying inforamtion to the teams.
 The team managers are chosen from the respective staff team by the Admin_\ s and go through a trial period.
 
 **Support Manager**
@@ -68,7 +68,7 @@ Organizes the creation of a minigames server (in progress)
 Moderator
 +++++++++
 
-This role helps enforce the rules on the server and moderates users. They can ban, mute and warn people in the `Discord <link:Discord>`_.
+This role helps enforce the rules on the server and moderates users. They can ban, mute and warn people in the `Discord <links:Discord>`_.
 
 To become a Moderator you have to first go through a 3 week trial period as a Helper_.
 
@@ -220,7 +220,7 @@ These people are former staff. Staff is not a life time job and sometimes member
 Reward roles
 ~~~~~~~~~~~~
 
-Reward roles are obtained by being active on the `Discord <link:Discord>`_. Each message you write counts towards your rank.
+Reward roles are obtained by being active on the `Discord <links:Discord>`_. Each message you write counts towards your rank.
 
 You can check your current rank be typing ```:?r``` in the `#bot-commands <bot-commands-channel>`_ channel on the Discord_.
 
