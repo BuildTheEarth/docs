@@ -299,14 +299,14 @@ PipNotifs
 
 Gets notified whenever PippenFTS uploads a new video.
 
-Subscribe by clicking the bell reaction under the Pipnotif_ message.
+Subscribe by clicking the bell reaction under the `Pipnotif <links:PipNotifs message>`_ message.
 
 Suggestions
 +++++++++++
 
 Enables you to write in the `#suggestions <suggestions-channel>`_  and the `#suggestions-discussion <suggestions-discussion-channel>`_ channel.
 
-Subscribe to this role by reacting to this `suggestion message`_.
+Subscribe to this role by reacting to this `suggestion message <links:suggestion message>`_.
 
 Language roles
 ++++++++++++++
