@@ -143,26 +143,27 @@ Once that's done, you will find the .po files in /locale/xx/.
 
 **A workflow example**
 
-    1. **Synchronizing the repository before starting to work:**
+    #. **Synchronizing the repository before starting to work:**
         The first thing to do before you start the day or (if you are translating into multiple languages) to switch languages is to synchronize your local copy of the repository to the remote master file. This will download all changes that have been made by your collegues.
         Open your command terminal in the **bteguide** folder and run:
         
         ..codeblock::
 
-         ``git checkout lang-xx`` 
-         ``git pull origin\lang-xx``
+           git checkout lang-xx 
+           git pull origin\lang-xx
+           sphinx-intl update -p build/gettext -l xx
 
-         Where `xx` is the language code of the language you want to work on.
+        Where `xx` is the language code of the language you want to work on.
+        
+        Now your .po files are up to date. 
 
-    2. **Updating .po files**
-        Explaination
-    3. **Working with Poedit**
+    #. **Working with Poedit**
         Explaination (probably a link to a detailled explaniation)
-    4. **Staging and Commiting changes**
+    #. **Staging and Commiting changes**
         Explaination
-    5. **Publishing/Pushing changes to the Fork and the main Wiki**
+    #. **Publishing/Pushing changes to the Fork and the main Wiki**
         Explaination
-    6. **Changing to a different language**
+    #. **Changing to a different language**
         Explaination
 
 
