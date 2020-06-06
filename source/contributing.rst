@@ -46,11 +46,13 @@ Go to the folder you want to work in.
 Shift-right-click in the folder and open the command terminal/Powershell. A command line Window will open up.
 
 **If you are using git for the first time** you need to register your name and your e-mail address. This is essential for your collaborators to identify which changes were made by you. Type in the following commands (middle mouse button is used to paste a copied text into the git console):
+
 .. code-block::
     git config --global user.name "Your 1st and 2nd Name" 
     git config --global user.name
 
 If everything is correct your username should be retured to you after the second command.
+
 .. code-block::
     git config --global user.email "email@example.com"
     git config --global user.email
@@ -58,11 +60,13 @@ If everything is correct your username should be retured to you after the second
 Again your e-mail address should be returned after the second command.
 
 We can now **clone your github repository** and connect it to the main wiki for synchronization.
+
 .. code-block::
     git clone [your link]
     git remote add upstream https://github.com/EzraEn1/bteguide.git
 
 This downloads the repository into the folder you chose it will appear as a folder named **bteguide**. Run
+
 .. code-block::
     cd .\bteguide
     pip -r requirements.txt
@@ -108,12 +112,14 @@ Open the command terminal inside of your **bteguide** folder and run ``git check
 If your target language hasn't been started on yet, you can create the branch yourself by running:
 
 **Windows:**
+
 .. code-block::
     git checkout -b lang-xx
     ./make.bat gettext
     sphinx-intl update -p build/gettext -l xx
 
 **Linux/Other:**
+
 .. code-block::
     git checkout -b lang-xx
     make.bat gettext
