@@ -1,3 +1,5 @@
+.. _roles:
+
 BTE Discord roles
 -----------------
 
