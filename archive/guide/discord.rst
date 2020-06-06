@@ -226,9 +226,9 @@ These people are former staff members. Staff is not a lifetime job and sometimes
 Reward roles
 ~~~~~~~~~~~~
 
-Reward roles are obtained by being active on the `Discord`_. Each message you write counts towards your rank.
+Reward roles are obtained by being active on the Discord_. Each message you write counts towards your rank.
 
-You can check your current rank by typing ``:?r`` in the `#bot-commands <https://discord.com/channels/690908396404080650/704114557479682128>`_ channel on the `Discord`_.
+You can check your current rank by typing ``:?r`` in the `#bot-commands <https://discord.com/channels/690908396404080650/704114557479682128>`_ channel on the Discord_.
 
 Here is a list of the Messages needed for each level:
 
@@ -274,21 +274,21 @@ Allows access to the `#staff-introductions <https://discord.com/channels/6909083
 
 Obtained at Level 5
 
-Allows access to the `#memes <https://discord.com/channels/690908396404080650/696498645100396544>`_ channel.
+Allows access to the `#memes <https://discord.com/channels/690908396404080650/696498645100396544>`__ channel.
 
 #music-role
 +++++++++++
 
 Obtained at Level 8
 
-Allows access to the `#music <https://discord.com/channels/690908396404080650/696499347612762143>`_ channel and the Music voice channel.
+Allows access to the `#music <https://discord.com/channels/690908396404080650/696499347612762143>`__ channel and the Music voice channel.
 
 #minigames-role
 +++++++++++++++
 
 Obtained at Level 10
 
-Provides access to the `#minigames <https://discord.com/channels/690908396404080650/696501161741647922>`_ channel.
+Provides access to the `#minigames <https://discord.com/channels/690908396404080650/696501161741647922>`__ channel.
 
 #pictures-role
 +++++++++++++++
