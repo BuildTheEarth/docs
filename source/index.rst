@@ -10,10 +10,8 @@ Welcome to Build The Earth!
    :maxdepth: 3
    :titlesonly:
 
-   
-   Build The Earth Guide (new) <guide/index.rst>
    Building Guidebook (old) <old/index.rst>
-
+   BTE Discord <guide/index.rst>
 .. 
    Indices and tables
    ==================   
