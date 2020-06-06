@@ -1,56 +1,9 @@
 Contributing to this Guide
-============
-
-Requirements
-------------
-All contributors will need these things:
-
-* A Text Editor
-* Git
-* Python >3.6
-* A Github Account
-
-Whether you're translating or just adding new information, these will be your tools, so get familiar with them! If you need help getting set up, contact us in `#support <https://discordapp.com/channels/690908396404080650/691034211464773684>`_. If noone responds, DM ``@EzraEn#4291``.
-
-
-We're using Sphinx with ReadTheDocs to run the Guide. For those unfamiliar with it, we suggest you look into the `basics of reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_. We do have the option for Markdown, however many features are not supported by it (e.g., tables, other common extensions), so going forward we will be investing in Sphinx.
-
-Resources
-~~~~~~~~~
-
-Git/Github
-""""""""""
-See the **Github Flow** section, it's pretty good.
-https://guides.github.com/introduction/git-handbook/#basic-git
-https://guides.github.com/activities/forking/
-If you use VSCode, I `highly recommend` using GitLens. Seriously. It helps. A lot. 
-
-reST
-""""
-These are a few highly recommended resources we've found on getting started with reST/rST.
-
-https://docs.typo3.org/m/typo3/docs-how-to-document/master/en-us/WritingReST/CheatSheet.html
-https://stackoverflow.com/questions/2746692/restructuredtext-tool-support/2747041#2747041
-https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#tables
-https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html
-If you're using VSCode (seeing a trend?) definitely install the `reStructuredText <https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext>`_ extension.
-
-Setting up your Environment
----------------------------
-
-Once you have `Git configured with your Github Account <>`_, make a new directory and open Git there. Fork this repo and clone your version of it to your new directory.
-
-Once you've got your version of the repo cloned, run ``pip -r requirements.txt`` in the working directory and wait for everything to install. 
-
-To contribute directly to the source files, find them in /source/. 
-If you are looking to create a new document, make sure the corresponding ``index.rst`` for it's directory includes it in it's `toctree` directive. This applies whether you choose to write in Markdown or reStructuredText (preferred). 
-
-
-Translating the Wiki
----------------------
+==========================
 
 Prerquisites
-~~~~~~~~~~~~~
+------------
+
 Before you can start translating this wiki you will need to install a few programms and set up your environment to interface with the github repository and collaborate with the wiki editors. You need the following programs:
 
 **Python Version 3.6 or higher**
@@ -71,14 +24,18 @@ Github is a webinterface for collaboration using remote git repositories. The wi
 
 Create an account `here <https://github.com/>`_.
 
-**Poedit**
+**If you want to translate**
 
 The translation of this wiki works internally by creating portable object (.po) files for each language. These files simplify the translation of web interfaces. To work with .po files we recommend a dedicated .po editor such as Poedit.
 
 Download it `here <https://poedit.net>`_.
 
+Whether you're translating or just adding new information, these will be your tools, so get familiar with them! If you need help getting set up, contact us in `#support <https://discordapp.com/channels/690908396404080650/691034211464773684>`_. If noone responds, DM ``@EzraEn#4291``.
+
+We're using Sphinx with ReadTheDocs to run the Guide. For those unfamiliar with it, we suggest you look into the `basics of reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_. We do have the option for Markdown, however many features are not supported by it (e.g., tables, other common extensions), so going forward we will be investing in Sphinx.
+
 Setting up the environment
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 After you created a Github account click the **Fork** buttom at the top right of the `bte-guide Github page <https://github.com/EzraEn1/bteguide>`_. This will create a copy of the whole wiki project on your own Github account. You can work on this copy without disturbing any of the things happening on the main wiki.
 The next step is to create a clone of your fork on your computer. This clone will be an ordinary folder but it can be synchronized to both your fork and the main BTE wiki.
@@ -110,6 +67,36 @@ This downloads the repository into the folder you chose it will appear as a fold
     pip -r requirements.txt
 
 This will install all packages you need to work on the wiki.
+
+Resources
+---------
+
+Git/Github
+""""""""""
+See the **Github Flow** section, it's pretty good.
+https://guides.github.com/introduction/git-handbook/#basic-git
+https://guides.github.com/activities/forking/
+If you use VSCode, I `highly recommend` using GitLens. Seriously. It helps. A lot. 
+
+reST
+""""
+These are a few highly recommended resources we've found on getting started with reST/rST.
+
+https://docs.typo3.org/m/typo3/docs-how-to-document/master/en-us/WritingReST/CheatSheet.html
+https://stackoverflow.com/questions/2746692/restructuredtext-tool-support/2747041#2747041
+https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#tables
+https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html
+If you're using VSCode (seeing a trend?) definitely install the `reStructuredText <https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext>`_ extension.
+
+Contributing to the wiki
+------------------------
+
+To contribute directly to the source files, find them in /source/. 
+If you are looking to create a new document, make sure the corresponding ``index.rst`` for it's directory includes it in it's `toctree` directive. This applies whether you choose to write in Markdown or reStructuredText (preferred). 
+
+Translating the Wiki
+---------------------
+
 
 
 If you language is already in the process of being translated, you will find it in a Git branch in the format `lang-xx`, where xx is the `Language code <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`_ as listed under the 639-1 column.
