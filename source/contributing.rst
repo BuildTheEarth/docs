@@ -5,7 +5,7 @@ Requirements
 ------------
 All contributors will need these things:
 
-* A Text Editor
+* A Text Editor (we recommend VSCode)
 * Git
 * Python >3.6
 * A Github Account
@@ -20,20 +20,25 @@ Resources
 
 Git/Github
 """"""""""
-See the **Github Flow** section, it's pretty good.
-https://guides.github.com/introduction/git-handbook/#basic-git
-https://guides.github.com/activities/forking/
-If you use VSCode, I `highly recommend` using GitLens. Seriously. It helps. A lot. 
+| Go through this first. Steps 1, 2, and 3 of **Setting Up Git** are all you really need to do, but if you'd like better security, you can go through the **Next Steps** if you'd like.
+| https://help.github.com/en/github/getting-started-with-github/set-up-git
+|
+| See the **Github Flow** section, it's a pretty good overview if you've never used Git before.
+| https://guides.github.com/introduction/git-handbook/#basic-git
+| https://guides.github.com/activities/forking/
+|
+| If you use VSCode, I `highly recommend` using `GitLens <https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens>`_. Seriously. It helps. A lot. 
 
 reST
 """"
 These are a few highly recommended resources we've found on getting started with reST/rST.
 
-https://docs.typo3.org/m/typo3/docs-how-to-document/master/en-us/WritingReST/CheatSheet.html
-https://stackoverflow.com/questions/2746692/restructuredtext-tool-support/2747041#2747041
-https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#tables
-https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html
-If you're using VSCode (seeing a trend?) definitely install the `reStructuredText <https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext>`_ extension.
+| https://docs.typo3.org/m/typo3/docs-how-to-document/master/en-us/WritingReST/CheatSheet.html
+| https://stackoverflow.com/questions/2746692/restructuredtext-tool-support/2747041#2747041
+| https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
+| https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html
+| 
+| If you're using VSCode (seeing a trend?) definitely install the `reStructuredText <https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext>`_ extension.
 
 Setting up your Environment
 ---------------------------
@@ -52,29 +57,42 @@ Translating
 Once you've done all of the above, translating is the next step for every document that is added.
 In order to streamline the translation process, we suggest using `Poedit <https://poedit.net>`_ for modifying the .po files. If you're familiar with platforms like CrowdIn, this will be a similar process, however everything must be done locally. 
 
-If you language is already in the process of being translated, you will find it in a Git branch in the format `lang-xx`, where xx is the `Language code <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`_ as listed under the 639-1 column.
+If you language is already in the process of being translated, you will find it in a Git branch in the format ``lang-xx``, where ``xx`` is the `Language code <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`_ as listed under the 639-1 column.
 
 If your target language hasn't been started on yet, you can create the branch yourself by running these commands:
 
 **Windows:**
+
 .. code-block::
+
     git checkout -b lang-xx
     ./make.bat gettext
     sphinx-intl update -p build/gettext -l xx
 
 **Linux/Other:**
+
 .. code-block::
+
     git checkout -b lang-xx
     make.bat gettext
     sphinx-intl update -p build/gettext -l xx
 
-Once that's done, you may start editing the .po files in /locale/xx/.
+Once that's done, you may start editing the .po files in ``/locale/xx/`` with Poedit.
+
+Once you're done with that, run these commands in the working dir to commit your changes to your fork.
+
+.. code-block:: 
+    git add source/locale/xx/*
+    git commit -m "Description of commit"
+    git push
+
+Then make a pull-request to the `main repo <https://github.com/ezraen1/bteguide>`_.
 
 
 Optional Quality-of-Life
 ------------------------
 
-You can install `sphinx-autobuild` with the guide, though it only seems to be compatible with Python versions less than 3.8. We don't recommend installing an older version of Python just for that, but if you really want to, you can. If you find that the package `does work` with 3.8, please notify ``@EzraEn#4291`` as we'd like to see that as a default install. 
+You can install ``sphinx-autobuild`` with the guide, though it only seems to be compatible with Python versions less than 3.8. We don't recommend installing an older version of Python just for that, but if you really want to, you can. If you find that the package `does work` with 3.8, please notify ``@EzraEn#4291`` as we'd like to see that as a default install. 
 
 Installing sphinx-autobuild is as simple as ``pip install sphinx-autobuild``.
 If you want to use live-reload, run ``make livehtml`` (or ``./make.bat livehtml``) and visit http://localhost:8000 to see your changes.
