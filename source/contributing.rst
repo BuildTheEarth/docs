@@ -57,9 +57,10 @@ If everything is correct your username should be retured to you after the second
 
 Again your e-mail address should be returned after the second command.
 
-We can now **clone your github repository**.
+We can now **clone your github repository** and connect it to the main wiki for synchronization.
 .. code-block::
-    git clone [your link] 
+    git clone [your link]
+    git remote add upstream https://github.com/EzraEn1/bteguide.git
 
 This downloads the repository into the folder you chose it will appear as a folder named **bteguide**. Run
 .. code-block::
@@ -94,9 +95,17 @@ If you're using VSCode (seeing a trend?) definitely install the `reStructuredTex
 Translating the Wiki
 ---------------------
 
-If you language is already in the process of being translated, you will find it in a Git branch in the format `lang-xx`, where xx is the `Language code <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`_ as listed under the 639-1 column.
+Setting up for translation
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If your target language hasn't been started on yet, you can create the branch yourself by running these commands:
+To begin to translate the wiki into a language you first need to find out if a translation into that language is already in the process of being translated.
+Each language is translated in its own language branch (A branch is like a separated version of the project that is used to create features without disturbing the integrity of the hole project). 
+
+the name of a language branch is `lang-xx` where xx is the `Language code <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`_ as listed under the 639-1 column.
+
+Open the command terminal inside of your **bteguide** folder and run ``git checkout lang-xx`` if the language is already in the process of being translated the output will tell you taht you are now on the lang-xx branch.
+
+If your target language hasn't been started on yet, you can create the branch yourself by running:
 
 **Windows:**
 .. code-block::
@@ -110,7 +119,25 @@ If your target language hasn't been started on yet, you can create the branch yo
     make.bat gettext
     sphinx-intl update -p build/gettext -l xx
 
-Once that's done, you may start editing the .po files in /locale/xx/.
+Working on the translation
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Once that's done, you will find the .po files in /locale/xx/.
+
+**A workflow example**
+
+    1. **Synchronizing the repository before starting for the day:**
+        Explaination
+    2. **Updating .po files**
+        Explaination
+    3. **Working with Poedit**
+        Explaination (probably a link to a detailled explaniation)
+    4. **Staging and Commiting changes**
+        Explaination
+    5. **Publishing/Pushing changes to the Fork and the main Wiki**
+        Explaination
+    6. **Changing to a different language**
+        Explaination
 
 
 Optional Quality-of-Life
