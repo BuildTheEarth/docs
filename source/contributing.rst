@@ -68,8 +68,11 @@ This downloads the repository into the folder you chose it will appear as a fold
 
 This will install all packages you need to work on the wiki.
 
-Resources
----------
+Contributing to the wiki
+------------------------
+
+To contribute directly to the source files, find them in /source/. 
+If you are looking to create a new document, make sure the corresponding ``index.rst`` for it's directory includes it in it's `toctree` directive. This applies whether you choose to write in Markdown or reStructuredText (preferred). You miht want to check out these resources.
 
 Git/Github
 """"""""""
@@ -88,16 +91,8 @@ https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#tables
 https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html
 If you're using VSCode (seeing a trend?) definitely install the `reStructuredText <https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext>`_ extension.
 
-Contributing to the wiki
-------------------------
-
-To contribute directly to the source files, find them in /source/. 
-If you are looking to create a new document, make sure the corresponding ``index.rst`` for it's directory includes it in it's `toctree` directive. This applies whether you choose to write in Markdown or reStructuredText (preferred). 
-
 Translating the Wiki
 ---------------------
-
-
 
 If you language is already in the process of being translated, you will find it in a Git branch in the format `lang-xx`, where xx is the `Language code <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`_ as listed under the 639-1 column.
 
