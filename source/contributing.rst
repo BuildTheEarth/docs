@@ -49,17 +49,68 @@ If you are looking to create a new document, make sure the corresponding ``index
 Translating the Wiki
 ---------------------
 
-Setting an translation Environment
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Prerquisites
+~~~~~~~~~~~~~
 Before you can start translating this wiki you will need to install a few programms and set up your environment to interface with the github repository and collaborate with the wiki editors. You need the following programs:
 
+**Python Version 3.6 or higher**
+
+Python is a programming language. You do not need to know any python to help translating but we need the language installed to setup the environment.
+
+You can find the download `here <https://www.python.org/downloads/>`_. The `Hitchhiker's Guide to Python <https://docs.python-guide.org/starting/installation/>`_ has a short tutorial on how to install python properly using the command line.
+
 **git**
+
 git is a decentral version control system that allows you to synchronize changes in a folder with remote repositories. It also allows to revert changes and split off parts of a project in independent project-branches.
 
-You can download it `here <https://git-scm.com/downloads>`_
+You can download it `here <https://git-scm.com/downloads>`_. 
 
-Once you've done all of the above, translating is the next step for every document that is added.
-In order to streamline the translation process, we suggest using `Poedit <https://poedit.net>`_ for modifying the .po files. If you're familiar with platforms like CrowdIn, this will be a similar process, however everything must be done locally. 
+**A Github account**
+
+Github is a webinterface for collaboration using remote git repositories. The wiki is created in a such a remote repository. you need to create an account to collaborate with the team.
+
+Create an account `here <https://github.com/>`_.
+
+**Poedit**
+
+The translation of this wiki works internally by creating portable object (.po) files for each language. These files simplify the translation of web interfaces. To work with .po files we recommend a dedicated .po editor such as Poedit.
+
+Download it `here <https://poedit.net>`_.
+
+Setting up the environment
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+After you created a Github account click the **Fork** buttom at the top right of the `bte-guide Github page <https://github.com/EzraEn1/bteguide>`_. This will create a copy of the whole wiki project on your own Github account. You can work on this copy without disturbing any of the things happening on the main wiki.
+The next step is to create a clone of your fork on your computer. This clone will be an ordinary folder but it can be synchronized to both your fork and the main BTE wiki.
+Click the green 'Clone or download' button on the top right and copy the link that appeard.
+Go to the folder you want to work in.
+
+**Windows**
+Shift-right-click in the folder and open the command terminal/Powershell. A command line Window will open up.
+
+**If you are using git for the first time** you need to register your name and your e-mail address. This is essential for your collaborators to identify which changes were made by you. Type in the following commands (middle mouse button is used to paste a copied text into the git console):
+.. code-block::
+    git config --global user.name "Your 1st and 2nd Name" 
+    git config --global user.name
+
+If everything is correct your username should be retured to you after the second command.
+.. code-block::
+    git config --global user.email "email@example.com"
+    git config --global user.email
+
+Again your e-mail address should be returned after the second command.
+
+We can now **clone your github repository**.
+.. code-block::
+    git clone [your link] 
+
+This downloads the repository into the folder you chose it will appear as a folder named **bteguide**. Run
+.. code-block::
+    cd .\bteguide
+    pip -r requirements.txt
+
+This will install all packages you need to work on the wiki.
+
 
 If you language is already in the process of being translated, you will find it in a Git branch in the format `lang-xx`, where xx is the `Language code <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`_ as listed under the 639-1 column.
 
