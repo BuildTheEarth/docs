@@ -1,4 +1,4 @@
-.. _Discord: https://discord.gg/buildtheearth
+.. _Discord: https://discord.gg/3mrQBYd
 .. _Patreon: https://www.patreon.com/user?u=32447854
 .. _website: https://buildtheearth.net/
 .. _`suggestion message`: https://discordapp.com/channels/690908396404080650/692251560981430292/711990012316483605

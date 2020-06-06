@@ -68,9 +68,11 @@ html_css_files = [
 # This is sorta like a header, but for reST across the entire docs.
 rst_prolog = """
 .. include:: /.textstyles.rst
-.. include:: /.links.rst
 """
 
+rst_epilog = """
+.. include:: /.links.rst
+"""
 
 # -- Material theme options (see theme.conf for more information)-------------
 html_theme_options = {
