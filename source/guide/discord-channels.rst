@@ -20,7 +20,7 @@ Finally, If you want to invite friends you can the link to the `Discord <links:D
 #server-contacts
 ++++++++++++++++
 
-In this channel you can find a break-down of the most important roles on the `Discord <links:Discord>`_  
+In this channel you can find a break-down of the most important roles on the `Discord <links:Discord>`_  For a larger breakdown check out: `discord-roles`_
 
 .. _rules-channel:
 
