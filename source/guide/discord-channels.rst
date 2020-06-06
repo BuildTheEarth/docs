@@ -11,7 +11,7 @@ The **#welcome** channel is where you will first arrive when you join the `Disco
 Here you can find a welcome message about the project and some basic information about the next steps.
 
 You can also choose your `Language roles <language-roles>`_ by reacting to the flags in this channel.
-You can also Subscribe to notifications whenever PippenFTS posts a new video and obtain the  `PipNotifs <PipNotifs>`_ role and join the *#closetgang*.
+You can also Subscribe to notifications whenever PippenFTS posts a new video and obtain the  `PipNotifs <Discord-roles:PipNotifs>`_ role and join the *#closetgang*.
 
 Finally, If you want to invite friends you can the link to the `Discord`_ here.
 
