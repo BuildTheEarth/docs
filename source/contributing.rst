@@ -10,25 +10,25 @@ Before you can start translating this wiki you will need to install a few progra
 
 Python is a programming language. You do not need to know any python to help translating but we need the language installed to setup the environment.
 
-You can find the download `here <https://www.python.org/downloads/>`_. The `Hitchhiker's Guide to Python <https://docs.python-guide.org/starting/installation/>`_ has a short tutorial on how to install python properly using the command line.
+You can find the download here `Python download <https://www.python.org/downloads/>`_. The `Hitchhiker's Guide to Python <https://docs.python-guide.org/starting/installation/>`_ has a short tutorial on how to install python properly using the command line.
 
 **git**
 
 git is a decentral version control system that allows you to synchronize changes in a folder with remote repositories. It also allows to revert changes and split off parts of a project in independent project-branches.
 
-You can download it `here <https://git-scm.com/downloads>`_. 
+You can download it here `Git download <https://git-scm.com/downloads>`_. 
 
 **A Github account**
 
 Github is a webinterface for collaboration using remote git repositories. The wiki is created in a such a remote repository. you need to create an account to collaborate with the team.
 
-Create an account `here <https://github.com/>`_.
+Create an account here `Github <https://github.com/>`_.
 
 **If you want to translate**
 
 The translation of this wiki works internally by creating portable object (.po) files for each language. These files simplify the translation of web interfaces. To work with .po files we recommend a dedicated .po editor such as Poedit.
 
-Download it `here <https://poedit.net>`_.
+Download it here: `Poedit download <https://poedit.net>`_.
 
 Whether you're translating or just adding new information, these will be your tools, so get familiar with them! If you need help getting set up, contact us in `#support <https://discordapp.com/channels/690908396404080650/691034211464773684>`_. If noone responds, DM ``@EzraEn#4291``.
 
@@ -47,13 +47,15 @@ Shift-right-click in the folder and open the command terminal/Powershell. A comm
 
 **If you are using git for the first time** you need to register your name and your e-mail address. This is essential for your collaborators to identify which changes were made by you. Type in the following commands (middle mouse button is used to paste a copied text into the git console):
 
-.. code-block::
+.. code-block:: 
+
     git config --global user.name "Your 1st and 2nd Name" 
     git config --global user.name
 
 If everything is correct your username should be retured to you after the second command.
 
-.. code-block::
+.. code-block:: 
+
     git config --global user.email "email@example.com"
     git config --global user.email
 
@@ -61,13 +63,15 @@ Again your e-mail address should be returned after the second command.
 
 We can now **clone your github repository** and connect it to the main wiki for synchronization.
 
-.. code-block::
+.. code-block:: 
+
     git clone [your link]
     git remote add upstream https://github.com/EzraEn1/bteguide.git
 
 This downloads the repository into the folder you chose it will appear as a folder named **bteguide**. Run
 
 .. code-block::
+
     cd .\bteguide
     pip -r requirements.txt
 
@@ -80,7 +84,7 @@ To contribute directly to the source files, find them in /source/.
 If you are looking to create a new document, make sure the corresponding ``index.rst`` for it's directory includes it in it's `toctree` directive. This applies whether you choose to write in Markdown or reStructuredText (preferred). You miht want to check out these resources.
 
 Git/Github
-""""""""""
+~~~~~~~~~~
 | Go through this first. Steps 1, 2, and 3 of **Setting Up Git** are all you really need to do, but if you'd like better security, you can go through the **Next Steps** if you'd like.
 | https://help.github.com/en/github/getting-started-with-github/set-up-git
 |
@@ -91,7 +95,7 @@ Git/Github
 | If you use VSCode, I `highly recommend` using `GitLens <https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens>`_. Seriously. It helps. A lot. 
 
 reST
-""""
+~~~~
 These are a few highly recommended resources we've found on getting started with reST/rST.
 
 | https://docs.typo3.org/m/typo3/docs-how-to-document/master/en-us/WritingReST/CheatSheet.html
@@ -139,8 +143,17 @@ Once that's done, you will find the .po files in /locale/xx/.
 
 **A workflow example**
 
-    1. **Synchronizing the repository before starting for the day:**
-        Explaination
+    1. **Synchronizing the repository before starting to work:**
+        The first thing to do before you start the day or (if you are translating into multiple languages) to switch languages is to synchronize your local copy of the repository to the remote master file. This will download all changes that have been made by your collegues.
+        Open your command terminal in the **bteguide** folder and run:
+        
+        ..codeblock::
+
+         ``git checkout lang-xx`` 
+         ``git pull origin\lang-xx``
+
+         Where `xx` is the language code of the language you want to work on.
+
     2. **Updating .po files**
         Explaination
     3. **Working with Poedit**
