@@ -331,6 +331,8 @@ Enables you to write in the `#suggestions <https://discord.com/channels/69090839
 
 Subscribe to this role by reacting to this `suggestions message <https://discord.com/channels/690908396404080650/692251560981430292/711990012316483605>`_.
 
+.. _language-roles:
+
 Language roles
 ++++++++++++++
 
