@@ -68,6 +68,7 @@ html_css_files = [
 # This is sorta like a header, but for reST across the entire docs.
 rst_prolog = """
 .. include:: /.textstyles.rst
+.. include:: /.links.rst
 """
 
 
