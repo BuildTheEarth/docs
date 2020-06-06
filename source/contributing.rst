@@ -46,8 +46,17 @@ To contribute directly to the source files, find them in /source/.
 If you are looking to create a new document, make sure the corresponding ``index.rst`` for it's directory includes it in it's `toctree` directive. This applies whether you choose to write in Markdown or reStructuredText (preferred). 
 
 
-Translating
------------
+Translating the Wiki
+---------------------
+
+Setting an translation Environment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Before you can start translating this wiki you will need to install a few programms and set up your environment to interface with the github repository and collaborate with the wiki editors. You need the following programs:
+
+**git**
+git is a decentral version control system that allows you to synchronize changes in a folder with remote repositories. It also allows to revert changes and split off parts of a project in independent project-branches.
+
+You can download it `here <https://git-scm.com/downloads>`_
 
 Once you've done all of the above, translating is the next step for every document that is added.
 In order to streamline the translation process, we suggest using `Poedit <https://poedit.net>`_ for modifying the .po files. If you're familiar with platforms like CrowdIn, this will be a similar process, however everything must be done locally. 
