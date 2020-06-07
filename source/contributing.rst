@@ -159,10 +159,23 @@ Once that's done, you will find the .po files in /locale/xx/.
 
     #. **Working with Poedit**
         Explaination (probably a link to a detailled explaniation)
+        
     #. **Staging and Commiting changes**
-        Explaination
+        
+        After you have worked on a .po file and made your translations you need to store your changes in a commit. Commits are progress packages that enable us to revert to any former version of the project if anythin goes wrong.
+        Save the changes in the file and then open your command terminal in the folder.
+
+        ..codeblock::
+
+           git add [filename]
+           git commit -m [commit message]
+
+        The commit message should be a max 50 character explaniation of what changes you made e.g. ``First translation of index.po`` or ``Spellcheck discord.po``. These messages help to track changes so it is encouraged to add and commit after every finished task (e.g. a translated file) and before going on to the next tasks as well as when you finish working at the end of the day. It is better to commit once to often than not enough.
+        
     #. **Publishing/Pushing changes to the Fork and the main Wiki**
-        Explaination
+        
+        Finally,  
+
     #. **Changing to a different language**
         Explaination
 
