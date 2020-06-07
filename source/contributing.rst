@@ -144,24 +144,24 @@ Once that's done, you will find the .po files in /locale/xx/.
 
 **A workflow example**
 
-    #. **Synchronizing the repository before starting to work:**
+     #. **Synchronizing the repository before starting to work:**
         The first thing to do before you start the day or (if you are translating into multiple languages) to switch languages is to synchronize your local copy of the repository to the remote master file. This will download all changes that have been made by your collegues.
         Open your command terminal in the **bteguide** folder and run:
         
         ..codeblock::
 
-           git checkout lang-xx 
-           git pull origin\lang-xx
-           sphinx-intl update -p build/gettext -l xx
+          git checkout lang-xx 
+          git pull origin\lang-xx
+          sphinx-intl update -p build/gettext -l xx
 
         Where `xx` is the language code of the language you want to work on.
         
         Now your .po files are up to date. 
 
-    #. **Working with Poedit**
+     #. **Working with Poedit**
         Explaination (probably a link to a detailled explaniation)
 
-    #. **Staging and Commiting changes**
+     #. **Staging and Commiting changes**
         
         After you have worked on a .po file and made your translations you need to store your changes in a commit. Commits are progress packages that enable us to revert to any former version of the project if anythin goes wrong.
         Save the changes in the file and then open your command terminal in the folder.
@@ -173,11 +173,12 @@ Once that's done, you will find the .po files in /locale/xx/.
 
         The commit message should be a max 50 character explaniation of what changes you made e.g. ``First translation of index.po`` or ``Spellcheck discord.po``. These messages help to track changes so it is encouraged to add and commit after every finished task (e.g. a translated file) and before going on to the next tasks as well as when you finish working at the end of the day. It is better to commit once to often than not enough. These commits are saved locally on your computer and are not visible for collaborators.
         
-    #. **Publishing/Pushing changes to the fork and the main wiki project**
+     #. **Publishing/Pushing changes to the fork and the main wiki project**
         
         Finally, you need to make your commits available for collaborators. For this you need to push your commits onto a Github repository. Your commits will bis pushed onto your personal project fork first:
 
         ..codeblock::
+
            git pull lang-xx
            git push lang-xx
 
