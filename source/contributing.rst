@@ -37,8 +37,9 @@ We're using Sphinx with ReadTheDocs to run the Guide. For those unfamiliar with 
 Setting up the environment
 --------------------------
 
-After you created a Github account click the **Fork** buttom at the top right of the `bte-guide Github page <https://github.com/EzraEn1/bteguide>`_. This will create a copy of the whole wiki project on your own Github account. You can work on this copy without disturbing any of the things happening on the main wiki.
-The next step is to create a clone of your fork on your computer. This clone will be an ordinary folder but it can be synchronized to both your fork and the main BTE wiki.
+After you created a Github account click the **Fork** buttom at the top right of the `bte-guide Github page <https://github.com/EzraEn1/bteguide>`_. This will create a copy of the whole wiki project on your own Github account. You can work on this copy without disturbing any of the things happening on the main wiki. If you are a translator and will work on a language for which a translation is already in progress you can also request your co-translator to accept you as a direct collaborator on their fork of the repository.
+
+The next step is to create a clone of the fork on your computer. This clone will be an ordinary folder but it can be synchronized to both your fork and the main BTE wiki.
 Click the green 'Clone or download' button on the top right and copy the link that appeard.
 Go to the folder you want to work in.
 
@@ -116,7 +117,7 @@ Each language is translated in its own language branch (A branch is like a separ
 
 the name of a language branch is `lang-xx` where xx is the `Language code <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`_ as listed under the 639-1 column.
 
-Open the command terminal inside of your **bteguide** folder and run ``git checkout lang-xx`` if the language is already in the process of being translated the output will tell you taht you are now on the lang-xx branch.
+Open the command terminal inside of your **bteguide** folder and run ``git checkout lang-xx`` if the language is already in the process of being translated the output will tell you that you are now on the lang-xx branch.
 
 If your target language hasn't been started on yet, you can create the branch yourself by running:
 
