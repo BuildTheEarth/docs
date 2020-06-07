@@ -159,7 +159,7 @@ Once that's done, you will find the .po files in /locale/xx/.
 
     #. **Working with Poedit**
         Explaination (probably a link to a detailled explaniation)
-        
+
     #. **Staging and Commiting changes**
         
         After you have worked on a .po file and made your translations you need to store your changes in a commit. Commits are progress packages that enable us to revert to any former version of the project if anythin goes wrong.
@@ -170,14 +170,19 @@ Once that's done, you will find the .po files in /locale/xx/.
            git add [filename]
            git commit -m [commit message]
 
-        The commit message should be a max 50 character explaniation of what changes you made e.g. ``First translation of index.po`` or ``Spellcheck discord.po``. These messages help to track changes so it is encouraged to add and commit after every finished task (e.g. a translated file) and before going on to the next tasks as well as when you finish working at the end of the day. It is better to commit once to often than not enough.
+        The commit message should be a max 50 character explaniation of what changes you made e.g. ``First translation of index.po`` or ``Spellcheck discord.po``. These messages help to track changes so it is encouraged to add and commit after every finished task (e.g. a translated file) and before going on to the next tasks as well as when you finish working at the end of the day. It is better to commit once to often than not enough. These commits are saved locally on your computer and are not visible for collaborators.
         
-    #. **Publishing/Pushing changes to the Fork and the main Wiki**
+    #. **Publishing/Pushing changes to the fork and the main wiki project**
         
-        Finally,  
+        Finally, you need to make your commits available for collaborators. For this you need to push your commits onto a Github repository. Your commits will bis pushed onto your personal project fork first:
 
-    #. **Changing to a different language**
-        Explaination
+        ..codeblock::
+           git pull lang-xx
+           git push lang-xx
+
+        This will update your changes to the fork. If everything goes correctly you should see a message on your Github account showing your last commit message. You can push your progress at any time during the process to update the remote repositories (be aware that only the changes that you commited earlier will be uploaded).
+
+        To get your changes updated on the main project you need to do a pull request on Github. Open your Github fork and click the green `Pull Request` button. You have to write a short message about what changes you have made and submit the pull request. Your pull request will be accepted by the main wiki editors.
 
 
 Optional Quality-of-Life
