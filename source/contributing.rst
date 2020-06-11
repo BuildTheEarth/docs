@@ -93,7 +93,7 @@ If you are looking to create a new document, make sure the corresponding ``index
 
 Git/Github
 ~~~~~~~~~~
-| Go through this first. Steps 1, 2, and 3 of **Setting Up Git** are all you really need to do, but if you'd like better security, you can go through the **Next Steps** if you'd like.
+| Here is the **official Github tutorial** of how to setup git:
 | https://help.github.com/en/github/getting-started-with-github/set-up-git
 |
 | See the **Github Flow** section, it's a pretty good overview if you've never used Git before.
