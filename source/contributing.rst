@@ -24,6 +24,10 @@ Github is a webinterface for collaboration using remote git repositories. The wi
 
 Create an account here `Github <https://github.com/>`_.
 
+**A text editor**
+
+We recommend a coding interface such as `VS Code <https://code.visualstudio.com/>`_ because it can handle all the git commands as well as the text editing so it will give you some quality of life features. However any kind of text editor would do the trick.
+
 **If you want to translate**
 
 The translation of this wiki works internally by creating portable object (.po) files for each language. These files simplify the translation of web interfaces. To work with .po files we recommend a dedicated .po editor such as Poedit.
@@ -82,7 +86,7 @@ Contributing to the wiki
 ------------------------
 
 To contribute directly to the source files, find them in /source/. 
-If you are looking to create a new document, make sure the corresponding ``index.rst`` for it's directory includes it in it's `toctree` directive. This applies whether you choose to write in Markdown or reStructuredText (preferred). You miht want to check out these resources.
+If you are looking to create a new document, make sure the corresponding ``index.rst`` for it's directory includes it in it's `toctree` directive. This applies whether you choose to write in Markdown or reStructuredText (preferred). You might want to check out these resources.
 
 Git/Github
 ~~~~~~~~~~
