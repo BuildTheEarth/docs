@@ -1,8 +1,8 @@
 Contributing to the Wiki
 ==========================
 
-Prerquisites
-------------
+Prerequisites
+------------_
 
 Before you can start translating this wiki you will need to install a few programms and set up your environment to interface with the github repository and collaborate with the wiki editors. You need the following programs:
 
@@ -50,7 +50,7 @@ Shift-right-click in the folder and open the command terminal/Powershell. A comm
 
 .. code-block:: 
 
-    git config --global user.name "Your 1st and 2nd Name" 
+    git config --global user.name "Username" 
     git config --global user.name
 
 If everything is correct your username should be retured to you after the second command.
