@@ -34,6 +34,8 @@ The translation of this wiki works internally by creating portable object (.po) 
 
 Download it here: `Poedit download <https://poedit.net>`_.
 
+**General**
+
 Whether you're translating or just adding new information, these will be your tools, so get familiar with them! If you need help getting set up, contact us in `#support <https://discordapp.com/channels/690908396404080650/691034211464773684>`_. If noone responds, DM ``@EzraEn#4291``.
 
 We're using Sphinx with ReadTheDocs to run the Guide. For those unfamiliar with it, we suggest you look into the `basics of reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_. We do have the option for Markdown, however many features are not supported by it (e.g., tables, other common extensions), so going forward we will be investing in Sphinx.
@@ -81,6 +83,7 @@ This downloads the repository into the folder you chose it will appear as a fold
     pip -r requirements.txt
 
 This will install all packages you need to work on the wiki.
+Great, congratulations yoou are now set up and can start working on the wiki documents. 
 
 Contributing to the wiki
 ------------------------
