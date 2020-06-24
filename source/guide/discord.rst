@@ -118,15 +118,6 @@ To join the PR team apply here `PR Application`_
 
 **What we look for:** The PR team needs many different types of people. 
 
-Tester
-++++++
-
-Tests launchers, servers, and support material for bugs and performance issues. Tests future updates and helps the developers.
-
-To become a tester apply here: `Tester Application`_
-
-**What we look for:** To become a tester some technical knowledge is important. If you have a basic understanding of Java or another programming language or have experience with creating mods we would love to have you on the team as a tester.
-
 Non-Staff roles
 ~~~~~~~~~~~~~~~
 
