@@ -61,7 +61,7 @@ Manages and implements staff feedback and suggestions.
 
 **Minigames Manager**
 
-Organizes the creation of a minigames server (in progress)
+Organizes the creation of a minigames server.
 
 Moderator
 +++++++++
@@ -158,7 +158,7 @@ Here is what you get for becoming a Patron:
 +            +--------------------------------------------------------------+
 |            | Patreon Podcast                                              |
 +------------+--------------------------------------------------------------+
-| 5 $/month  | A sign with your name along the staff members in the credits  |
+| 5 $/month  | A sign with your name along the staff members in the credits |
 +------------+--------------------------------------------------------------+
 | 10 $/month | Your Minecraft player head in the credits                    |
 +            +--------------------------------------------------------------+ 
@@ -168,7 +168,7 @@ Here is what you get for becoming a Patron:
 +            +--------------------------------------------------------------+ 
 |            | Exclusive channel                                            |
 +------------+--------------------------------------------------------------+
-| 50 $/month | A large statue of your minecraft character in the credit room |
+| 50 $/month | A large statue of your minecraft character in the credit room|
 +            +--------------------------------------------------------------+
 |            | Patreon T5 role in the Discord                               |
 +------------+--------------------------------------------------------------+
@@ -325,8 +325,8 @@ This role is given to people that broke the rules of the Discord by Moderator_\s
 DJ
 +++
 
-Has control over the `Rythm bot`_ in the music channel without having to rely on the majority vote.
-This role is given out by the staff to specific trusted members.
+Has control over the `Groovy bot`_ in the music channel without having to rely on the majority vote.
+This role is reserved for staff members.
 
 Bot
 +++
