@@ -1,0 +1,459 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Build The Earth Contributors
+# This file is distributed under the same license as the Build The Earth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Build The Earth \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-25 22:06-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/old/gettingstarted.rst:2
+msgid "Getting Started"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:4
+msgid ""
+"This document has been marked for deprecation. The information in the "
+"article may be outdated."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:7
+msgid "Don’t feel confident enough to build?"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:9
+msgid ""
+"Don't worry we all started small. You might think that all of us are "
+"master builders because you saw all those fancy buildings being showcased"
+" but in truth we all started with a dirt house and a door at some point."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:11
+msgid "The world is a big place and not every building is complicated to build."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:13
+msgid "Here are some tips for the beginner:"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:15
+msgid "Start with something small"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:16
+msgid "Start with something familiar"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:17
+msgid "Ask for advice whenever you are stuck"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:19
+msgid ""
+"Choose one or two small houses in your local area that you know very well"
+" and start building"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:21
+msgid ""
+"Go to the `Discord <https://discord.gg/buildtheearth>`_ #progress channel"
+" and ask for building tips (e.g. Which blocks to use for different "
+"materials)."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:23
+msgid ""
+"If you want to improve your building technique check out some YouTube "
+"videos on \"WorldEdit\" and \"Effortless Building\". Both of these mods "
+"are included in the modpack and can save a lot of time."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:25
+msgid "Good luck and have fun!"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:29
+msgid "The Solo-Builder Application"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:30
+msgid ""
+"To become a builder you need to download the modpack . You can find the "
+"installer in `Discord <https://discord.gg/buildtheearth>`_ #downloads."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:32
+msgid ""
+"The first decision you have to make is where you want to build. Check out"
+" the `Map <https://buildtheearth.net/map>`_  to see which plots of land "
+"are still available. You can choose any of the unclaimed plots. Each plot"
+" is 512 x 512 meter (= Minecraft blocks) in size."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:34
+msgid ""
+"Before you can claim the plot you have to do some building to show that "
+"you are ready for the challenge."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:36
+msgid ""
+"Choose 2-5 buildings to build (these buildings should not be on the "
+"border with other plots) and start building."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:38
+msgid ""
+"When the buildings look like the real world buildings take a screenshot "
+"(The perspective of the screen shot should be the same as a real life "
+"reference image)."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:40
+msgid ""
+"Upload your screenshot and the reference image separately to `imgur "
+"<https://imgur.com/>`_."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:42
+msgid ""
+"Head over to the `webpage <https://buildtheearth.net/>`_ and apply for "
+"the builder position."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:44
+msgid "Your application should be answered within approx. 3 days."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:46
+msgid "You can go on building until you get an answer."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:48
+msgid "You will get a direct message on Discord approving your application."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:50
+msgid ""
+"If your application is denied you will get some feedback on what to "
+"improve."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:54
+msgid "Bedrock version?"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:55
+#, python-format
+msgid ""
+"Unfortunately you can not become a builder when using the Bedrock version"
+" however you are welcome to join the Discord and help improve other "
+"people builds by giving feedback and suggestions in the #progress "
+"channel. Another way you can help the project to help to map out the "
+"world on `Open Street Maps "
+"<file:///C:/Users/Ezra%20En/Desktop/BTE/Building%20Guidebook/BuildingGuidebook.html#kix.thj8vh7kmyzv>`_."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:60
+msgid "Settings for generating a new world"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:61
+msgid ""
+"When you download the modpack a pre-generated world will be included. "
+"Sometimes you will have to generate a new world to deal with some bugs "
+"though."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:63
+msgid "These are the current settings for generating a new world"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:67
+msgid "Custom"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:69
+msgid "Generate Structures:"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:69
+#: ../../source/old/gettingstarted.rst:71
+#: ../../source/old/gettingstarted.rst:84
+#: ../../source/old/gettingstarted.rst:85
+#: ../../source/old/gettingstarted.rst:86
+#: ../../source/old/gettingstarted.rst:87
+#: ../../source/old/gettingstarted.rst:88
+msgid "ON"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:70
+msgid "CubicChunks:"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:70
+msgid "Default"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:71
+msgid "Allow Cheats:"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:72
+msgid "World Type:"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:72
+msgid "Planet Earth"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:73
+msgid "Bonus Chest:"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:73
+msgid "OFF"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:80
+msgid "More World Options:"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:82
+msgid "Projection:"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:82
+msgid "terra121.projection.bteairocean"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:83
+msgid "Orientation:"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:83
+msgid "Upright"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:84
+msgid "Smooth Blending:"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:85
+msgid "Spawn Roads:"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:86
+msgid "Advanced Water:"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:87
+msgid "Elevation Based Ores:"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:88
+msgid "OSM Building Outlines:"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:92
+msgid "Entering the world for the first time"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:93
+msgid ""
+"If everything went correctly you should spawn on a mushroom island in the"
+" middle of the ocean. Welcome to “Null - Island”."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:98
+msgid "How to teleport"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:99
+msgid ""
+"`Video tutorial <https://thumbs.gfycat.com/AdolescentWindingCentipede-"
+"mobile.mp4>`_"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:101
+msgid ""
+"You can teleport to any location in the world using the command ``/tpll x"
+" y``, for example ``/tpll 40.708838, -73.999225`` to go to New York"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:104
+msgid "To get the coordinates of any place in the world you can:"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:106
+msgid "Copy them from the `Interactive Map <https://buildtheearth.net/map>`_"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:107
+msgid ""
+"Go to Google maps, right-click onto your point of interest and click "
+"“What is here?” click on the coordinates showing up at the bottom of the "
+"screen. Now you can copy the coordinates in the toolbar on the left."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:109
+msgid ""
+"There is also a custom mod that has been made for this project only made "
+"by Smyler#7078, called `Terramap <https://www.curseforge.com/minecraft"
+"/mc-mods/terramap>`_. This mod allows you to easily teleport without "
+"having to copy-paste the gps coordinates from a web browser, or open "
+"various map websites at the desired location directly from the game."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:111
+msgid ""
+"After it is installed in your modpack, you can open the map with M, and "
+"then zoom in on the location you want to go to."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:115
+msgid "Before you build/Best Practices"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:116
+msgid ""
+"Everybody has their own way to go about starting a build, however there "
+"are some preparations that will help in the long run, especially in less "
+"densely populated areas."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:118
+msgid "Make sure that your plot is not already claimed."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:119
+msgid ""
+":ref:`/tpll <tpll>` to your coordinates and have a look around the plot "
+"to see the layout, orientation and identify missing features. (to find "
+"the corners of your plot go to “MyBuildTheEarth” on the webpage and click"
+" on your region. You will find the x and y coordinates of the corners "
+"there.)"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst
+msgid ""
+"Go to `OpenStreetMaps <https://www.openstreetmap.org/>`_ (OSM) and check "
+"if your area has been mapped completely and accurately. `More info on OSM"
+" <osmdoc>`_"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst
+msgid ":under:`If the mapping is not correct:`"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:123
+msgid "Create an account and edit the map on OSM"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:124
+msgid "Give the changes 30-60 min to update"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:125
+msgid ""
+"Select your plot using the WorldEdit ``//wand`` and use ``//regen`` to "
+"update"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:127
+msgid "Fix your biomes if needed:"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:129
+msgid "Select your plot using the WorldEdit ``//wand``"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:130
+msgid "``//setbiome [biometype]``, check ``//biomelist`` for all possible biomes"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:131
+msgid "Check the elevation of your plot and fix it with WorldEdit."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:132
+msgid "Fix any bugged terrain generation using WorldEdit"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:133
+msgid ""
+"Do a couple commands to change some gamerules. These commands are really "
+"sensitive to capital letters, so copying them into your game is the "
+"safest way to go. Even if you type without capitals, it will show a "
+"message that you have done it, even if nothing has changed."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst
+msgid "``/gamerule doDaylightCycle false`` (stops day night cycle)"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst
+msgid ""
+"You can then do ``/time set day`` or ``/time set night`` to change the "
+"time."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst
+msgid "``/gamerule doMobSpawning false`` (stops mobs from spawning)"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst
+msgid ""
+"Doing ``/butcher -abfgnprt`` will butcher every mob in the area, "
+"including NPC and pets. You can also do ``/kill @e[type=!Player]``"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:139
+msgid ""
+"``/gamerule mobGriefing false`` (stops creepers/endermen from destroying "
+"your build)"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst
+msgid "``/gamerule doWeatherCycle false`` (Stops rain and snowfall)"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst
+msgid ""
+"You can also do ``/weather clear`` to put the weather to sun. There is "
+"also ``rain`` and ``thunderstorm``."
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:142
+msgid ""
+"We recommend to set the chunk loading distance as low as possible "
+"(otherwise the world file size will increase.)"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:143
+msgid "You’re ready to start building!"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:146
+msgid "Important Links"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:147
+msgid "https://buildtheearth.net/"
+msgstr ""
+
+#: ../../source/old/gettingstarted.rst:149
+msgid "https://buildtheearth.net/map"
+msgstr ""
+
