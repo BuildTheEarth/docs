@@ -81,6 +81,7 @@ This downloads the repository into the folder you chose it will appear as a fold
 
 .. code-block::
 
+    cd .\bteguide
     pip install -r requirements.txt
 
 This will install all packages you need to work on the wiki.
