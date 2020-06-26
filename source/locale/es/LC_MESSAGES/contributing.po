@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Build The Earth\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-25 22:06-0300\n"
-"PO-Revision-Date: 2020-06-26 00:00-0300\n"
+"PO-Revision-Date: 2020-06-26 01:04-0300\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -168,7 +168,7 @@ msgstr ""
 
 #: ../../source/contributing.rst:44
 msgid "Setting up the environment"
-msgstr ""
+msgstr "Preparar el entorno"
 
 #: ../../source/contributing.rst:46
 msgid ""
@@ -180,6 +180,13 @@ msgid ""
 "translation is already in progress you can also request your co-translator to "
 "accept you as a direct collaborator on their fork of the repository."
 msgstr ""
+"Una vez que hayas creado una cuenta de GitHub, presiona el botón de **Fork** "
+"en la esquina derecha superior, en el `repositorio de esta guía <https://"
+"github.com/EzraEn1/bteguide>`_. Esto creará una copia del proyecto en tu "
+"propia cuenta de GitHub. Puedes trabajar en esta copia sin molestar a los "
+"colaboradores del repositorio principal. Si eres un traductor y planeas en "
+"trabajar en un idioma que ya está en progreso, puedes pedirle al otro "
+"traductor acceso directo en su \"fork\"."
 
 #: ../../source/contributing.rst:48
 msgid ""
@@ -188,12 +195,19 @@ msgid ""
 "the main BTE wiki. Click the green 'Clone or download' button on the top right "
 "and copy the link that appeard. Go to the folder you want to work in."
 msgstr ""
+"El siguiente paso es crear una copia del *fork* en tu computadora. Esta copia "
+"simplemente será una carpeta, pero puede ser sincronizada con tu *fork*, y con "
+"el repositorio principal. Presiona el botón de \"Clone\" en la esquina derecha "
+"superior de tu repositorio y copia el link. Ahora, ve a la carpeta en la que "
+"vas a trabajar."
 
 #: ../../source/contributing.rst:52
 msgid ""
 "**Windows** Shift-right-click in the folder and open the command terminal/"
 "Powershell. A command line Window will open up."
 msgstr ""
+"**En Windows:** Shift + clic derecho en la carpeta, y abre la línea de "
+"comandos o PowerShell."
 
 #: ../../source/contributing.rst:55
 msgid ""
@@ -202,28 +216,40 @@ msgid ""
 "which changes were made by you. Type in the following commands (middle mouse "
 "button is used to paste a copied text into the git console):"
 msgstr ""
+"**Si estás usando git por primera vez** necesitas registrar tu nombre y "
+"dirección de *e-mail*. Esto es esencial para que los otros colaboradores sepan "
+"quién realizó cada cambio. Escribe los siguientes comandos (intenta presionar "
+"el botón central o derecho del ratón para pegar texto de tu portapapeles):"
 
 #: ../../source/contributing.rst:62
 msgid ""
 "If everything is correct your username should be retured to you after the "
 "second command."
 msgstr ""
+"Si todo salió bien, tu nombre de usuario debería aparecer cuando uses el "
+"segundo comando."
 
 #: ../../source/contributing.rst:69
 msgid "Again your e-mail address should be returned after the second command."
 msgstr ""
+"De la misma manera, tu dirección de *e-mail* debería aparecer después del "
+"segundo comando."
 
 #: ../../source/contributing.rst:71
 msgid ""
 "We can now **clone your github repository** and connect it to the main wiki "
 "for synchronization."
 msgstr ""
+"Ahora, puedes **clonar tu repositorio de GitHub** y conectarlo al repositorio "
+"principal."
 
 #: ../../source/contributing.rst:78
 msgid ""
 "This downloads the repository into the folder you chose it will appear as a "
 "folder named **bteguide**. Run"
 msgstr ""
+"Esto descarga el repositorio a la carpeta que elegiste, dentro de otra carpeta "
+"nombrada **bteguide**. Usa el siguiente comando."
 
 #: ../../source/contributing.rst:85
 msgid ""
@@ -231,10 +257,12 @@ msgid ""
 "congratulations yoou are now set up and can start working on the wiki "
 "documents."
 msgstr ""
+"Esto instalará todos los paquetes necesarios para trabajar en la wiki. ¡Ahora "
+"estás preparado para trabajar en la wiki!"
 
 #: ../../source/contributing.rst:89
 msgid "Contributing to the wiki"
-msgstr ""
+msgstr "Contribuir a la wiki"
 
 #: ../../source/contributing.rst:91
 msgid ""
@@ -244,68 +272,83 @@ msgid ""
 "whether you choose to write in Markdown or reStructuredText (preferred). You "
 "might want to check out these resources."
 msgstr ""
+"Para contribuir directamente, los puedes encontrar en ``/source/``. Si quieres "
+"crear un nuevo documento, asegúrate de que el ``index.rst`` correspondiente lo "
+"incluya en su *directive* ``toctree``. Esto aplica quieras escribir en "
+"Markdown como en reStructuredText *(recomendado)*. Puede que quieras revisar "
+"los siguientes sitios."
 
 #: ../../source/contributing.rst:95
 msgid "Git/Github"
-msgstr ""
+msgstr "Git / GitHub"
 
 #: ../../source/contributing.rst:96
 msgid "Here is the **official Github tutorial** of how to setup git:"
-msgstr ""
+msgstr "Este es el **tutorial oficial de GitHub** sobre cómo instalar git:"
 
 #: ../../source/contributing.rst:97
 msgid "https://help.github.com/en/github/getting-started-with-github/set-up-git"
-msgstr ""
+msgstr "https://help.github.com/es/github/getting-started-with-github/set-up-git"
 
 #: ../../source/contributing.rst:99
 msgid ""
 "See the **Github Flow** section, it's a pretty good overview if you've never "
 "used Git before."
 msgstr ""
+"Revisa la sección de **GitHub Flow**, es una buena referencia si nunca usaste "
+"git antes."
 
 #: ../../source/contributing.rst:100
 msgid "https://guides.github.com/introduction/git-handbook/#basic-git"
-msgstr ""
+msgstr "https://guides.github.com/introduction/git-handbook/#basic-git"
 
 #: ../../source/contributing.rst:101
 msgid "https://guides.github.com/activities/forking/"
-msgstr ""
+msgstr "https://guides.github.com/activities/forking/"
 
 #: ../../source/contributing.rst:103
 msgid ""
 "If you use VSCode, I `highly recommend` using `GitLens <https://marketplace."
 "visualstudio.com/items?itemName=eamodio.gitlens>`_. Seriously. It helps. A lot."
 msgstr ""
+"Si utilizas VS Code, recomendamos instalar `GitLens <https://marketplace."
+"visualstudio.com/items?itemName=eamodio.gitlens>`_."
 
 #: ../../source/contributing.rst:106
 msgid "reST"
-msgstr ""
+msgstr "reST"
 
 #: ../../source/contributing.rst:107
 msgid ""
 "These are a few highly recommended resources we've found on getting started "
 "with reST/rST."
 msgstr ""
+"Estos son algunos materiales que encontramos para empezar a trabajar con "
+"reST / rST."
 
 #: ../../source/contributing.rst:109
 msgid ""
 "https://docs.typo3.org/m/typo3/docs-how-to-document/master/en-us/WritingReST/"
 "CheatSheet.html"
 msgstr ""
+"https://docs.typo3.org/m/typo3/docs-how-to-document/master/en-us/WritingReST/"
+"CheatSheet.html"
 
 #: ../../source/contributing.rst:110
 msgid ""
 "https://stackoverflow.com/questions/2746692/restructuredtext-tool-"
 "support/2747041#2747041"
 msgstr ""
+"https://stackoverflow.com/questions/2746692/restructuredtext-tool-"
+"support/2747041#2747041"
 
 #: ../../source/contributing.rst:111
 msgid "https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html"
-msgstr ""
+msgstr "https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html"
 
 #: ../../source/contributing.rst:112
 msgid "https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html"
-msgstr ""
+msgstr "https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html"
 
 #: ../../source/contributing.rst:114
 msgid ""
@@ -313,14 +356,17 @@ msgid ""
 "`reStructuredText <https://marketplace.visualstudio.com/items?"
 "itemName=lextudio.restructuredtext>`_ extension."
 msgstr ""
+"De nuevo, si usas VS Code, recomendamos instalar la extensión "
+"`reStructuredText <https://marketplace.visualstudio.com/items?"
+"itemName=lextudio.restructuredtext>`_."
 
 #: ../../source/contributing.rst:117
 msgid "Translating the Wiki"
-msgstr ""
+msgstr "Traducir la Wiki"
 
 #: ../../source/contributing.rst:120
 msgid "Setting up for translation"
-msgstr ""
+msgstr "Prepararte para la traducción"
 
 #: ../../source/contributing.rst:122
 msgid ""
@@ -330,6 +376,8 @@ msgid ""
 "separated version of the project that is used to create features without "
 "disturbing the integrity of the hole project)."
 msgstr ""
+"Para comenzar a traducir la wiki, primero necesitas saber si la wiki ya está "
+"siendo traducida a este idioma. Cada idioma se traduce en su propia *branch*."
 
 #: ../../source/contributing.rst:125
 msgid ""
@@ -337,6 +385,11 @@ msgid ""
 "<https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`_ as listed under the "
 "639-1 column."
 msgstr ""
+"El nombre de cada *branch* es ``lang-xx``, donde ``xx`` es el código de "
+"lenguaje establecido por el estándar `ISO 639-1 <https://es.wikipedia.org/wiki/"
+"ISO_639-1#Lista_idiomas>`_; por ejemplo, ``es`` para el idioma español. Desde "
+"ahora, nos vamos a referir a este con simplemente ``xx``, pero recuerda que "
+"debes reemplazarlo cuando ejecutes comandos o navegues directorios."
 
 #: ../../source/contributing.rst:127
 msgid ""
@@ -344,32 +397,37 @@ msgid ""
 "checkout lang-xx`` if the language is already in the process of being "
 "translated the output will tell you that you are now on the lang-xx branch."
 msgstr ""
+"Abre la línea de comandos dentro de tu carpeta **bteguide** y ejecuta el "
+"comando ``git checkout lang-xx`` (¡reemplazando ``xx``!). Si el idioma ya "
+"existe, el comando dirá que estás dentro de la *branch* ``lang-xx``."
 
 #: ../../source/contributing.rst:129
 msgid ""
 "If your target language hasn't been started on yet, you can create the branch "
 "yourself by running:"
-msgstr ""
+msgstr "Si todavía no existe, puedes crearlo tú mismo con el siguiente comando:"
 
 #: ../../source/contributing.rst:131
 msgid "**Windows:**"
-msgstr ""
+msgstr "**Windows:**"
 
 #: ../../source/contributing.rst:139
 msgid "**Linux/Other:**"
-msgstr ""
+msgstr "**Linux / Otros:**"
 
 #: ../../source/contributing.rst:148
 msgid "Working on the translation"
-msgstr ""
+msgstr "Trabajar en la traducción"
 
 #: ../../source/contributing.rst:150
 msgid "Once that's done, you will find the .po files in /locale/xx/."
 msgstr ""
+"Una vez que hayas terminado, vas a encontrar los archivos de traducción ``."
+"po`` en ``/locale/xx/``."
 
 #: ../../source/contributing.rst:152
 msgid "**A workflow example**"
-msgstr ""
+msgstr "**Ejemplo de un \"workflow\"**"
 
 #: ../../source/contributing.rst:154
 msgid ""
@@ -380,29 +438,34 @@ msgid ""
 "been made by your collegues. Open your command terminal in the **bteguide** "
 "folder and run:"
 msgstr ""
+"**Sincronizar el repositorio antes de empezar a trabajar:** Lo primero que "
+"debes hacer al empezar a traducir o cambiar entre idiomas, es sincronizar tu "
+"copia local a tu repositorio alojado en GitHub. Esto descargará todos los "
+"cambios realizados por otros colaboradores. Abre tu línea de comandos en la "
+"carpeta **bteguide** y ejecuta el comando:"
 
 #: ../../source/contributing.rst:158 ../../source/contributing.rst:176
 #: ../../source/contributing.rst:187
 msgid "..codeblock::"
-msgstr ""
+msgstr "..codeblock::"
 
 #: ../../source/contributing.rst:164
 msgid "Where `xx` is the language code of the language you want to work on."
-msgstr ""
+msgstr "(Recuerda, reemplazando ``xx``)."
 
 #: ../../source/contributing.rst:166
 msgid "Now your .po files are up to date."
-msgstr ""
+msgstr "Ahora, tus archivos ``.po`` están al día."
 
 #: ../../source/contributing.rst:168
 msgid ""
 "**Working with Poedit** Explaination (probably a link to a detailled "
 "explaniation)"
-msgstr ""
+msgstr "**Trabajar con Poedit:** *(No disponible)*."
 
 #: ../../source/contributing.rst:171
 msgid "**Staging and Commiting changes**"
-msgstr ""
+msgstr "**Preparar (\"stage\") y guardar (\"commit\") los cambios**"
 
 #: ../../source/contributing.rst:173
 msgid ""
@@ -411,6 +474,10 @@ msgid ""
 "to revert to any former version of the project if anythin goes wrong. Save the "
 "changes in the file and then open your command terminal in the folder."
 msgstr ""
+"Una vez que hayas trabajado en uno de los archivos ``.po``, necesitas guardar "
+"los cambios en un \"*commit*\". Los *commits* son \"puntos de control\" que "
+"nos permiten revertir a versiones pasadas del proyecto, por si algo sale mal. "
+"Guarda los cambios, y abre tu línea de comandos en la carpeta."
 
 #: ../../source/contributing.rst:181
 msgid ""
@@ -422,10 +489,17 @@ msgid ""
 "better to commit once to often than not enough. These commits are saved "
 "locally on your computer and are not visible for collaborators."
 msgstr ""
+"El mensaje de *commit* tendría que ser de máximo 50 caracteres, en inglés, y "
+"debe explicar qué cambios hiciste. Por ejemplo: ``First translation of index."
+"po`` o ``Spellcheck discord.po``. Estos mensajes ayudan a seguir los cambios "
+"hechos, por lo que recomendamos realizar un *commit* luego de cada \"tarea\" "
+"hecha—por ejemplo, traducir un archivo—y no realizar demasiados cambios por "
+"*commit*; más vale que sobren y no que falten. Los *commits* son guardados "
+"localmente y no son visibles por otros colaboradores."
 
 #: ../../source/contributing.rst:183
 msgid "**Publishing/Pushing changes to the fork and the main wiki project**"
-msgstr ""
+msgstr "**Publicar (\"push\") los cambios a tu fork y al repositorio principal**"
 
 #: ../../source/contributing.rst:185
 msgid ""
@@ -433,6 +507,9 @@ msgid ""
 "you need to push your commits onto a Github repository. Your commits will bis "
 "pushed onto your personal project fork first:"
 msgstr ""
+"Finalmente, debes hacer públicos los cambios. Para esto, debes publicar (*"
+"\"push\"*) a tu repositorio de GitHub. Tus *commits* serán publicados en tu "
+"*fork* personal primero:"
 
 #: ../../source/contributing.rst:192
 msgid ""
@@ -442,6 +519,10 @@ msgid ""
 "repositories (be aware that only the changes that you commited earlier will be "
 "uploaded)."
 msgstr ""
+"Esto actualizará tus cambios al *fork*. Si todo sale bien, verás un mensaje en "
+"tu cuenta de GitHub mostrando tu último mensaje de *commit*. Puedes publicar "
+"tu progreso en cualquier momento, pero recuerda que solo los cambios que "
+"hiciste antes de esto serán publicados."
 
 #: ../../source/contributing.rst:194
 msgid ""
@@ -450,10 +531,15 @@ msgid ""
 "You have to write a short message about what changes you have made and submit "
 "the pull request. Your pull request will be accepted by the main wiki editors."
 msgstr ""
+"Para que tus cambios aparezcan en el proyecto principal, necesitas hacer una "
+"\"*pull request*\" en GitHub. Abre tu *fork* y presiona el botón verde de "
+"*Pull Request*. Debes escribir un mensaje corto que describa qué cambios "
+"hiciste, y luego enviar la *pull request*. Esta será aceptada por los "
+"colaboradores principales."
 
 #: ../../source/contributing.rst:198
 msgid "Optional Quality-of-Life"
-msgstr ""
+msgstr "Mejoras Opcionales"
 
 #: ../../source/contributing.rst:200
 msgid ""
@@ -463,6 +549,11 @@ msgid ""
 "to, you can. If you find that the package `does work` with 3.8, please notify "
 "``@EzraEn#4291`` as we'd like to see that as a default install."
 msgstr ""
+"Puedes instalar ``sphinx-autobuild``, pero parece que solamente es compatible "
+"con versiones de Python menores a 3.8. No recomendamos instalar una versión "
+"vieja simplemente para esto; pero si de verdad quieres, lo puedes hacer. Si la "
+"librería *funciona* con tu instalación de Python 3.8, por favor envíale un "
+"mensaje directo a ``@EzraEn#4291`` en Discord."
 
 #: ../../source/contributing.rst:202
 msgid ""
@@ -470,3 +561,7 @@ msgid ""
 "If you want to use live-reload, run ``make livehtml`` (or ``./make.bat "
 "livehtml``) and visit http://localhost:8000 to see your changes."
 msgstr ""
+"Puedes instalar ``sphinx-autobuild`` con el comando ``pip install sphinx-"
+"autobuild``. Si quieres utilizar ``live-reload``, ejecuta el comando ``make "
+"livehtml`` (o ``./make.bat livehtml``) y visita `tu versión local <http://"
+"localhost:8000>`_."
