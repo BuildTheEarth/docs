@@ -9,3 +9,4 @@ Build The Earth Guide
    :maxdepth: 2
 
    discord
+   errors
