@@ -5,7 +5,12 @@
 
 Welcome to Build The Earth!
 ===========================================
+This guide contains extensive data on almost everthing you need to know on BTE. It's always being worked on, and you can contribute below by pressing "Contributing to the Wiki"
 
+
+
+Table of Contents
+===========================================
 .. toctree::
    :maxdepth: 3
    :titlesonly:
