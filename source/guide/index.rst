@@ -10,3 +10,4 @@ Build The Earth Guide
 
    discord
    errors
+   server
