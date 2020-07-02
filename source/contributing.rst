@@ -37,9 +37,9 @@ Download it here: `Poedit download <https://poedit.net>`_.
 
 **General**
 
-Whether you're translating or just adding new information, these will be your tools, so get familiar with them! If you need help getting set up, contact us in `#support <https://discordapp.com/channels/690908396404080650/691034211464773684>`_ or open a ticket with the BTE Support Bot! If noone responds, DM ``@EzraEn#4291``.
+Whether you're translating or just adding new information, these will be your tools, so get familiar with them! If you need help getting set up, contact us in `#support <https://discordapp.com/channels/690908396404080650/691034211464773684>`_ or open a ticket with the BTE Support Bot! If nobody responds, DM ``@EzraEn#4291``.
 
-We're using Sphinx with ReadTheDocs to run the Guide. For those unfamiliar with it, we suggest you look into the `basics of reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_. We do have the option for Markdown, however many features are not supported by it (e.g., tables, other common extensions), so going forward we will be investing in Sphinx.
+We're using Sphinx with ReadTheDocs to run the guide. For those unfamiliar with it, we suggest you look into the `basics of reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_. We do have the option for Markdown, however many features are not supported by it (e.g., tables, other common extensions), so going forward we will be investing in Sphinx.
 
 Setting up the environment
 --------------------------
@@ -47,13 +47,13 @@ Setting up the environment
 After you have created a Github account click the **Fork** buttom at the top right of the `bte-guide Github page <https://github.com/EzraEn1/bteguide>`_. This will create a copy of the whole wiki project on your own Github account. You can work on this copy without affecting any of the code on the main wiki. If you are a translator and want to work on a language for which a translation is already in progress, you can also request your co-translator to accept you as a direct collaborator on their fork of the repository.
 
 The next step is to create a clone of the fork on your computer. This clone will be an ordinary folder that can be synchronized to both your forked repo and the main BTE wiki.
-Click the green .green::`'Clone or download'` button on the top right and copy the link that appears.
-Go to the folder you want to work in.
+Click the green :green:`'Clone or download'` button on the top right and copy the link that appears.
+Then, go to the folder you want to work in.
 
 **Windows**
 Shift + Right-click in the folder and open the Terminal/Powershell. A Terminal window will open.
 
-**If you are using git for the first time** you will need to register your name and your e-mail address. This is essential for your collaborators to identify which changes are made by you. Type in the following commands (middle mouse button is used to paste a copied text into the git console):
+**If you are using git for the first time** you will need to register your name and your e-mail address. This is essential for your collaborators to identify which changes are made by you. Type in the following commands (use the middle mouse button to paste a copied text into the git console):
 
 .. code-block:: 
 
@@ -67,7 +67,7 @@ If everything is correct your username should be returned to you after the secon
     git config --global user.email "email@example.com"
     git config --global user.email
 
-Again your e-mail address should be returned after the second command.
+Again, your e-mail address should be returned after the second command.
 
 We can now **clone your github repository** and connect it to the main wiki for synchronization.
 
