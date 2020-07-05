@@ -8,5 +8,7 @@ Build The Earth Guide
    :titlesonly:
    :maxdepth: 2
 
-   discord
+   installation
    errors
+   discord
+
