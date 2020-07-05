@@ -12,6 +12,11 @@ An error occurred while running installer. Error code: (some non-zero number)
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Unknown cause, you will have to attempt a manual install.
 
+Unable to replace invaild library
++++++++++++++++++++++++++++++++++
+Remember to close Minecraft and any other programs that could be using java.
+
+
 
 Minecraft Errors
 ~~~~~~~~~~~~~~~~
