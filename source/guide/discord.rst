@@ -29,7 +29,7 @@ The team managers are chosen from the respective staff team by the Admin_\s and 
 
 **Support Manager**
 
-The Support Manager is the head of support. They oversee the Support and Tester role and work with them to create support materials.
+The Support Manager is the head of support. They oversee the Support role and work with them to create support materials.
 
 **Build Team Manager**
 
@@ -73,14 +73,14 @@ To become a Moderator you have to first go through a 3 week trial period as a He
 Moderator on Duty
 #################
 Not all moderators are on duty at the same time. The moderation team works in shifts.
-Please ping the **@Moderator on Duty** if you need help in the chats!
+Please ping the **@Moderator on Duty** role if you need help in the chats!
 
 Helper
 ++++++
 
 Helps the Moderator_\s fulfil their duties. They can mute and warn people. Helpers are moderators on trial after three weeks they are either promoted to Moderator_, demoted or their trial is extended.
 
-To become a helper you can apply here: `Helper Application`_ 
+To become a helper you can apply here: `Helper Application`_ (The applications are always open for 2 weeks followed by 2 weeks of closed applications)
 
 Wizards
 +++++++
@@ -92,7 +92,7 @@ Web Developer
 
 Created and maintains the website.
 
-To become a Web Developer apply here: `Dev Application`_ (The applications are always open for one week followed by 3 weeks of closed application)
+To become a Web Developer apply here: `Dev Application`_ 
 
 Regional Build Team Manager (RBTL)
 ++++++++++++++++++++++++++++++++++
@@ -105,9 +105,26 @@ Support
 
 Provides support for the modpack, Minecraft issues or the project in the support channel. They also write support documentation like this Wiki and the Builders Guidebook.
 
-To become a Support apply here: `Support Application`_ (The applications are always open for one week followed by 3 weeks of closed application)
+To become a Support apply here: `Support Application`_ (The applications are always open for 2 weeks followed by 2 weeks of closed applications)
 
 **What we look for:** People that like to help others. Some technical knowledge can be helpful.
+
+Support on Duty
+###############
+Not all Support are on duty at the same time. 
+Please ping the **@Support on Duty** role if you need help in the support channel!
+
+Bedrock Team
+++++++++++++
+
+Helps with BTE Bedrock support and terrain generation. They handle region requests for the Bedrock side of the project. 
+
+To become part of the Bedrock Team apply here: `Bedrock Team Application <https://docs.google.com/forms/d/e/1FAIpQLScOo428JV9u0zZ0BzIewH3P4bPlgZWy94FWk_pHmgFpWl1ZhQ/viewform>`_
+
+Bedrock Team on Duty
+####################
+Not all Bedrock Team staff are on duty at the same time.
+Please ping the **@Bedrock Team on Duty** role if you need any help with Bedrock support!
 
 Public Relations (PR)
 +++++++++++++++++++++
@@ -201,8 +218,8 @@ Youtube Subtitles
 
 The Youtube Subtitles role is given to people that help to translate all BTE youtube videos into different languages.
 
-Cool guys (former staff) (staffn't)
-+++++++++++++++++++++++++++++++++++
+Former Staff
+++++++++++++
 
 These people are former staff members. Staff is not a lifetime job and sometimes members of the staff have to resign from their roles to focus on other things in life. Former staff members can be helpful in many ways and might become staff again after when they have more time again.
 
@@ -232,7 +249,7 @@ Here is a list of the Messages needed for each level:
   12         2455
   13         2915
   14         3415
-  15         3955
+  15         3955   `#pictures <#pictures-role>`_  
   16         4535
   17         5155
   18         5815
@@ -249,6 +266,8 @@ Member
 ++++++
 
 Obtained at Level 3
+
+Allows access to the `#staff-introductions <https://discord.com/channels/690908396404080650/722517684629274725>`_ channel.
 
 #memes-role
 +++++++++++
@@ -271,12 +290,19 @@ Obtained at Level 10
 
 Provides access to the `#minigames <https://discord.com/channels/690908396404080650/696501161741647922>`_ channel.
 
+#pictures-role
++++++++++++++++
+
+Obtained at Level 15
+
+Provides access to the `#pictures <https://discord.com/channels/690908396404080650/722520557228261527>`_ channel.
+
 Veteran
 +++++++
 
 Obtained at level 20
 
-Provides access to the `#veteran⚔ <https://discord.com/channels/690908396404080650/696496004316397629>`_ channel.
+Provides access to the `#veteran⚔ <https://discord.com/channels/690908396404080650/696496004316397629>`_ channel. The role also gives you permissions to change your own nickname.
 The Veteran role is colored in a way that new people might mistake you for a Moderator_. Just keep that in mind.
 
 Subscription roles
@@ -289,14 +315,21 @@ PipNotifs
 
 Gets notified whenever PippenFTS uploads a new video.
 
-Subscribe by clicking the bell reaction under the Pipnotif_ message.
+Subscribe by clicking the bell reaction under the `PipNotifs <https://discord.com/channels/690908396404080650/715369975035985970/720996512552845402>`_ message. 
+
+Notifications
++++++++++++++
+
+Gets notified for announcements regarding the discord server.
+
+Subscribe by clicking the bell reaction under the `Notifications <https://discord.com/channels/690908396404080650/715369975035985970/720990581144158279>`_ message.
 
 Suggestions
 +++++++++++
 
 Enables you to write in the `#suggestions <https://discord.com/channels/690908396404080650/692251560981430292>`_  and the `#suggestions-discussion <https://discord.com/channels/690908396404080650/710953298395529226>`_ channel.
 
-Subscribe to this role by reacting to this `suggestion message`_.
+Subscribe to this role by reacting to this `suggestions message <https://discord.com/channels/690908396404080650/692251560981430292/711990012316483605>`_.
 
 Language roles
 ++++++++++++++
