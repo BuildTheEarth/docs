@@ -3,7 +3,7 @@ Installing the Modpack
 
 This section will walk you through the process of installing the BTE modpack required for building and contributing to the project.
 
-This page is split into 2 parts, using the automated installer and performing a manual installation.
+This page is split into 3 parts, using the automated installer, performing a manual installation, and installing Optifine.
 Use the contents on the right to easily navigate through the page.
 
 Using the Automated Installer
@@ -53,8 +53,6 @@ Open MultiMC and follow the instructions below.
 #. Check the :code:`Memory` box, and use the arrow buttons to change the maximum memory allocated. The recommended amount of memory is about 4-8 GB.
 #. Launch the modpack by double clicking the icon.
 
-
-
 Forge
 +++++
 
@@ -65,3 +63,68 @@ Forge
 #. Move all the mods from the :code:`mods` folder to your mods folder of :code:`.minecraft`
 #. Move the :code:`Build The Earth (new projection)` folder from the :code:`saves` folder to your own :code:`saves` folder
 #. Run the forge 1.12.2 profile in the minecraft launcher, then make a new world with `these settings <https://cdn.discordapp.com/attachments/691034211464773684/711678233179062283/settings.png>`_
+
+
+Installing Optifine
+~~~~~~~~~~~~~~~~~~~~~~~~
+This section is split into parts based on how you installed the modpack. Use the sidebar to navigate to each one.
+
+Before starting, download the most recent version of Optifine 1.12.2 from `here <https://optifine.net/downloads>`_
+
+Automated Installer
++++++++++++++++++++
+Use the section corresponding to your operating system to install optifine.
+
+Windows
+""""""
+
+#. Open up your :code:`.buildtheearth` folder. Press :code:`Win + R`, paste :code:`%AppData%/.buildtheearth` , and press enter.
+#. Go into the :code:`mods` folder.
+#. Move or copy the Optifine jar from the download location to the folder.
+
+Mac
+""""
+
+#. Open up your :code:`.buildtheearth` folder. Open Spotlight with :code:`⌘ + Space`, paste :code:`~/Library/Application Support/buildtheearth` , and press enter.
+#. Go into the :code:`mods` folder.
+#. Move or copy the Optifine jar from the download location to the folder.
+
+
+Linux
+""""""
+
+#. Open up your :code:`.buildtheearth` folder. Navigate to your main directory and go into :code:`.buildtheearth`
+#. Go into the :code:`mods` folder.
+#. Move or copy the Optifine jar from the download location to the folder.
+
+MultiMC
++++++++
+
+#. Open MultiMC, click the :code:`Build the Earth` profile, and press :code:`Edit Instance`
+#. Click the :code:`Loader Mods` tab, and then :code:`Add` on the top right.
+#. Naviage to where you downloaded Optifine, and double click it.
+#. You're done!
+
+Forge
++++++
+Windows
+""""""
+
+#. Open up your :code:`.minecraft` folder. Press :code:`Win + R`, paste :code:`%AppData%/.minecraft` , and press enter.
+#. Go into the :code:`mods` folder.
+#. Move or copy the Optifine jar from the download location to the folder.
+
+Mac
+""""
+
+#. Open up your :code:`.minecraft` folder. Open Spotlight with :code:`⌘ + Space`, paste :code:`~/Library/Application Support/minecraft` , and press enter.
+#. Go into the :code:`mods` folder.
+#. Move or copy the Optifine jar from the download location to the folder.
+
+
+Linux
+""""""
+
+#. Open up your :code:`.minecraft` folder. Navigate to your main directory and go into :code:`.minecraft`
+#. Go into the :code:`mods` folder.
+#. Move or copy the Optifine jar from the download location to the folder.
