@@ -37,16 +37,12 @@ We recommend MultiMC for use with the Modpack, as the install won't affect your 
 
 MultiMC
 +++++++
-First, lets make sure you have MultiMC installed.
+First, lets make sure you have MultiMC installed. `Download MultiMC <https://multimc.org/#Download>`_
 
-* `Website <https://multimc.org/>`_
-* `Download <https://multimc.org/#Download>`_
-
-Open MultiMC and follow the instructions below.
+Install and launch MultiMC, then follow the instructions below.
 
 #. First, set your account by clicking on the Accounts on top right and pressing "Manage Accounts"
 #. Click the :code:`Add` button, and log in using your Mojang username and password.
-#. Download the modpack file from `here <https://bte-installer.s3.amazonaws.com/public/modpack_versions/BuildTheEarthPack_1.6.zip>`_
 #. Create a new MultiMC profile by pressing :code:`Add Instance` in the top left.
 #. Switch to the :code:`Import from zip` tab, then paste :code:`https://bte-installer.s3.amazonaws.com/public/modpack_versions/BuildTheEarthPack_1.6.zip` into the text box.
 #. Once the importing has finished, click the :code:`Edit Instance` button, and then the :code:`Settings` tab.
