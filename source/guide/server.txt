@@ -1,0 +1,71 @@
+4. Advanced server pack
+
+This section will walk you through the process of setting up your own BTE server with permissions and other stuff.
+
+4.1 Downloading and running
+4.1.1 Downloading
+Link:
+4.1.2 Running
+1. Unzip the zip file you downloaded.
+2. Open the server folder and edit the RUN.bat with pressing the right mouse button on the file and then choosing edit. 
+3. Then change the xmx4096M to how much RAM you want the server to use, 4096M is 4GB, you could also use 4G but I use M, to use 6GB you do 6*1024 and get 6144M. So the finished line will be xmx6144M.
+4. After saving, you can start your server by opening the RUN.bat with double clicking on it. The first time you open the server it will take some time to install all the things it needs. 
+5. After installing it will ask to accept the eula, type true into the console and press enter. 
+6. After having done that the next time you can just open the RUN.bat and it will start up the server quite quick.
+To stop the server type stop in the console or use the /stop command in Minecraft, wait until the console says press any key to continue . . . 
+4.1.2.1 Running with own world
+To use your own Terra world you have to replace the TerraPreGenerated folder with your own world folder. Make sure to rename the folder to TerraPreGenerated to get the already set up protection.
+
+4.5. Joining
+4.5.1. Localhost
+To connect to your server from the same computer as the server you can join by using localhost as the IP of the server.
+4.5.2. Port forwarding
+To let other people join your server you have to Port Forward the server port. The default server port is 25565. Port forwarding is different on every router so use this website to find out how to do it: https://www.noip.com/support/knowledgebase/general-port-forwarding-guide/
+After port forwarding check if the 25565 port is open with this site: https://www.portchecktool.com
+
+
+4.5.2.1. Finding IP
+To find the IP other people need to use to connect to your server use this site: https://www.portchecktool.com
+
+4.6. Using the server
+4.6.1. Giving op
+Give yourself as the owner op by typing in op username in the console. You now have all the permissions on the server.
+4.6.2. Giving permissions
+To give your builders permissions you have to use this command.
+/lp user <username> group add builder
+To remove the builder group from someone you use this command.
+/lp user <username>  group remove builder
+To give your staff their permission group you use this command. (available groups: helper, moderator, administrator)
+/lp user <username> group add <group>
+To remove the staff group from someone you use this command.
+/lp user <username> group remove <group>
+4.6.3. tpll
+The tpll command doesn’t work when you do not have op, and the whole point of this server pack is to not needing to give people op, so this server pack uses another tpll and that is /cs tpll. /cs tpll is the exact same command as /tpll but it also works with degree coordinates.
+4.6.4. Backups
+If you want automatic world backups, you need to put the mods from extra-mods in to the mods folder, after the next restart you will start getting a backup every 15 minutes, you can change that in the config of aromabackups, the config file can be found in the config folder.
+
+4.7. In depth plugin descriptions
+4.7.1. Luckperms
+4.7.2. Essentials
+4.7.3. TAB
+4.7.4. AdvancedBan
+4.7.5. ChatControl
+4.7.6. Worldedit
+4.7.7. Worldguard
+4.7.8. PlaceholderAPI
+4.7.9. Extra
+4.7.9.1 Libraries
+These plugins can’t be configured so do not need an in depth description:
+Vault, ProtocolLib
+4.7.9.2 Advanced
+These plugins are for the Advanced configuration and will get an in depth explanation there:
+ExtraContexts, WorldGuardExtraFlags
+
+4.8. Advanced configurations
+4.8.1. Plugins
+4.8.1.1. ExtraContexts
+4.8.1.2. WorldGuardExtraFlags
+4.8.2. configurations
+4.8.2.1. Test-builder region
+4.8.2.2. Build regions
+
