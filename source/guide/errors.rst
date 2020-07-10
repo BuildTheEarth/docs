@@ -12,6 +12,11 @@ An error occurred while running installer. Error code: (some non-zero number)
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Unknown cause, you will have to attempt a manual install.
 
+Unable to replace invaild library
++++++++++++++++++++++++++++++++++
+Remember to close Minecraft and any other programs that could be using java.
+
+
 
 Minecraft Errors
 ~~~~~~~~~~~~~~~~
@@ -27,24 +32,28 @@ Possible Fix:
 
 1.c. (Linux) Open a terminal window by pressing "Control+Alt+T."
 
-2.a. (Windows) Paste in this text: 
+2.a. (Windows) Paste in this text 
+
 .. code-block:: 
 
     %AppData%\.buildtheearth\options.txt
 
+2.b. (MacOS) Paste in this text
 
-2.b. (MacOS) Paste in this text: 
-.. code-block:: 
+.. code-block::
+
     ~/Library/Application/Support/.buildtheearth/options.txt
 
-2.c. (Linux) Paste in this text and then go to Step 6: 
-.. code-block:: 
+2.c. (Linux) Paste in this text, and then go to Step 6
+
+.. code-block::
+
     sed 's/fullscreen:true/fullscreen:false/' ~/.buildtheearth/options.txt
 
-3. Press the keys "Control+F."
+3. Press "Ctrl+F."
 
-4. Paste in this text: fullscreen:
+4. Search for "fullscreen"
 
-5. Replace "true" with "false."
+5. Replace "true" with "false"
 
-6. Restart Minecraft and it should work.
+6. Restart Minecraft
