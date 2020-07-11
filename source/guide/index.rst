@@ -11,3 +11,4 @@ Build The Earth Guide
    installation
    errors
    discord
+   server
