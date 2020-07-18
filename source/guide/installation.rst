@@ -11,8 +11,9 @@ Using the Automated Installer
 To begin you first need to download the correct installer for your operating system. These can be found in #downloads on the discord, or below.
 
 * `Windows Installer <https://bte-installer.s3.amazonaws.com/public/installer/v1.11/BTEInstaller-1.11-windows.zip>`_
-* `Mac Installer <https://bte-installer.s3.amazonaws.com/public/installer/v1.11/BTEInstaller-1.11-mac.dmg>`_
+* `Mac Installer (MacOS 10.15.x only) <https://bte-installer.s3.amazonaws.com/public/installer/v1.11/BTEInstaller-1.11-mac.dmg>`_
 * `Linux Installer <https://bte-installer.s3.amazonaws.com/public/installer/v1.11/BTEInstaller-1.11-linux.tar.gz>`_
+* `Universal Installer <https://bte-installer.s3.amazonaws.com/public/installer/v1.11/BTEInstaller-1.11-universal.jar>`_
 
 Next, simply run the file by double clicking it.
 
@@ -20,7 +21,6 @@ Common problems that can occur:
 
 * Windows: Press "More Info", then "Run Anyways" if Windows blocks the installer
 
-* Mac: The installer unfortunately only runs on MacOS 10.15.x, you will need to do a manual install, listed below
 
 
 Performing a Manual Installation
@@ -54,7 +54,7 @@ Forge
 
 #. Install forge from `this link <https://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.12.2.html>`_. 
 #. Download the modpack file `here <https://bte-installer.s3.amazonaws.com/public/modpack_versions/BuildTheEarthPack_1.6.zip>`_
-#. Extract the file a folder of your choice.
+#. Extract the modpack zip file to a folder of your choice.
 #. Go into the extracted folder, then the overrides folder.
 #. Move all the mods from the :code:`mods` folder to your mods folder of :code:`.minecraft`
 #. Move the :code:`Build The Earth (new projection)` folder from the :code:`saves` folder to your own :code:`saves` folder
