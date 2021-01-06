@@ -1,5 +1,6 @@
+site_name: My Docs
 theme:
-  name: My Docs
+  name: material
   custom_dir: mkdocs-material/material
 
   # 404 page
