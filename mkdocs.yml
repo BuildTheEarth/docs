@@ -1,7 +1,7 @@
-site_name: My Docs
+site_name: BuildTheEarth
 theme:
-  name: material
-  custom_dir: mkdocs-material/material
+  name: null
+  custom_dir: material
 
   # 404 page
   static_templates:
