@@ -15,11 +15,8 @@ Table of Contents
    :maxdepth: 3
    :titlesonly:
 
-   
-   Build The Earth Guide (new) <guide/index.rst>
    Building Guidebook (old) <old/index.rst>
-   contributing
-
+   BTE Discord <guide/index.rst>
 .. 
    Indices and tables
    ==================   
