@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Build The Earth Contributors
+# This file is distributed under the same license as the Build The Earth
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Build The Earth \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-25 22:06-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/old/osm.rst:4
+msgid "Open Street Maps (OSM)"
+msgstr ""
+
+#: ../../source/old/osm.rst:5
+msgid ""
+"This document has been marked for deprecation. The information in the "
+"article may be outdated."
+msgstr ""
+
+#: ../../source/old/osm.rst:10
+msgid "What is OSM?"
+msgstr ""
+
+#: ../../source/old/osm.rst:12
+msgid ""
+"Similar to BTE, OSM_ has the goal to map all of the world. While we are "
+"working on our Minecraft world, we can contribute to the OSM project and "
+"help them to achieve their goal. By editing the OSM database you not only"
+" make your own build easier but at the same time you can help identify "
+"infrastructure that might be crucial in future humanitarian work. This "
+"applies especially if you are working in a developing country where maps "
+"are hard to come by. OSM maps are also used by different mapping sevices "
+"such as Apple maps."
+msgstr ""
+
+#: ../../source/old/osm.rst:16
+msgid "How to use OSM to add building outlines/roads"
+msgstr ""
+
+#: ../../source/old/osm.rst:18
+msgid ""
+"You must create an account in OSM_ to be able to edit the maps. For this "
+"you only need an email address. Click on **Edit** at the top of the "
+"screen and then **register**. After the registration is done you will get"
+" into the Edit-mode. You will be presented with a short (15 min) tutorial"
+" that will teach you the basics of OSM_. Please use the hashtag **#BTE** "
+"in your editing comments."
+msgstr ""
+
+#: ../../source/old/osm.rst:24
+msgid "Misaligned satellite images"
+msgstr ""
+
+#: ../../source/old/osm.rst:26
+msgid ""
+"In remote areas of the world sometimes the satellite images are either "
+"not as good as you wish, or they do not align to the elements that have "
+"already been placed in OSM_. In the “edit” mode of OSM_ you will find a "
+"background settings icon on the right of the map. Here you can choose "
+"between different satellite and other map types. Sometimes features of "
+"buildings are more visible on one of the other images. If there are "
+"already some structures mapped in your OSM_ region, but the underlying "
+"satellite image does not align correctly to these structures you have to "
+"move the satellite image. Go to the **background setting** to find "
+"**Adjust imagery offset** at the bottom. Use the arrows to move the "
+"satellite image to align to the pre-generated elements."
+msgstr ""
+
+#: ../../source/old/osm.rst:31
+msgid "How to get changes into Minecraft"
+msgstr ""
+
+#: ../../source/old/osm.rst:33
+msgid ""
+"It can take some time until the changes you made in OSM_ are registered "
+"in the database. After **30 - 60 min** you should be able to regenerate "
+"the part of the Minecraft world you edited to see the changes. Select the"
+" area you edited in OSM_ using the WorldEdit ``//wand``. There is a bug "
+"that replaces roads with single stone brick lines therefore you should "
+"make sure not to select roads if possible. Then use the ``//regen`` "
+"command to regenerate the edited terrain."
+msgstr ""
+
+#: ../../source/old/osm.rst:37
+msgid "How does it work behind the scenes?"
+msgstr ""
+
