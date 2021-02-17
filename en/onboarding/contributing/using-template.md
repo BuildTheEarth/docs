@@ -1,11 +1,12 @@
 <!---
 title: Using the Template
 path: /onboarding/contributing/using-template
-version: 1.0.0
+version: 1.0.1
 authors:
     - @ezraen1
 --->
-
+``` .. todo:: Add textstyling reference
+```
 Using the Template
 ===================
 

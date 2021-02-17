@@ -1,3 +1,11 @@
+<!---
+title: Index
+path: /
+version: 1.0.1
+last-updated: 
+authors:
+  - @ezraen1
+--->
 Welcome to the Build The Earth: Guide!
 ==================================================
 
@@ -37,4 +45,4 @@ Advanced (Old Google Docs-source)
     Technical Guide
 FAQ
 (It’s at the end of the guide for a reason. Everything else should be answered by the guide itself.)
->
+--->
