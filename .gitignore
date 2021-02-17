@@ -1,7 +1,1 @@
-/build/*
-/buildhtml/*
-/.vscode
-Thumbs.db
-.DS_Store
-.gitignore
-start.sh
+.vscode
