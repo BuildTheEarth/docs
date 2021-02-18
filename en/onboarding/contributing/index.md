@@ -1,7 +1,7 @@
 <!---
 title: Contributing to the Docs
 path: /onboarding/contributing
-version: 1.0.0
+version: 1.1.0
 last-updated: 
 authors:
   - @ezraen1
@@ -108,7 +108,7 @@ Project Structure
 =================
 
 Here we have the basic outline for the rest of the project. Following the outline helps us categorise our content, allowing readers to more easily find what they're looking for.
-  
+
 - Onboarding (First introduction to BTE/BTEGuide)
     - Installation 
         - Java
