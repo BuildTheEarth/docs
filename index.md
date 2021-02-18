@@ -15,7 +15,7 @@ Welcome to the Build The Earth: Guide!
    :caption: Languages
    :maxdepth: 3
 
-   English <en>
+   English <en/index>
 ```
 
 ```eval_rst
