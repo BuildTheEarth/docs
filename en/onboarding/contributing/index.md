@@ -1,7 +1,7 @@
 <!---
 title: Contributing to the Docs
 path: /onboarding/contributing
-version: 1.1.0
+version: 1.1.1
 last-updated: 
 authors:
   - @ezraen1
@@ -98,8 +98,7 @@ Shortcomings of the Workflow
 
 The unfortunate result of trying to flatten and simplify both the document writing experience and the translation methodology means that short of modifying `sphinx-intl` or writing our own build tool, there is currently no elegant way to ensure that: 
 - Translated documents are correctly linked to their source documents (via language switcher)
-- Untranslated documents are properly redirected/shown their updated source equivalents.
-- The root URL is no longer: "https://bte.rtfd.io/**bteguide**/lang/..." (We'd really like it to just be "https://bte.rtfd.io/lang/...")
+- Untranslated document links are properly redirected/shown their updated source equivalents.
 
 If you have any ideas as to how we can resolve these issues, we have a Discussion ongoing in the Github repo.
 
