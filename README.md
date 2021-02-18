@@ -1,7 +1,7 @@
 # BuildTheEarth Guide
 
 This is the source of documentation for our [ReadTheDocs](https://bte.rtfd.io).
-If you're looking for the Sphinx setup, see https://bte.rtfd.io/en/onboarding/contributing/
+If you're looking for the Sphinx setup, see the [bteguide-site repo](https://github.com/EzraEn1/bteguide-site).
 
 Contributing
 ------------
