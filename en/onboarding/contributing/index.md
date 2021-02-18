@@ -102,3 +102,35 @@ The unfortunate result of trying to flatten and simplify both the document writi
 - The root URL is no longer: "https://bte.rtfd.io/**bteguide**/lang/..." (We'd really like it to just be "https://bte.rtfd.io/lang/...")
 
 If you have any ideas as to how we can resolve these issues, we have a Discussion ongoing in the Github repo.
+
+
+Project Structure
+=================
+
+Here we have the basic outline for the rest of the project. Following the outline helps us categorise our content, allowing readers to more easily find what they're looking for.
+  
+- Onboarding (First introduction to BTE/BTEGuide)
+    - Installation 
+        - Java
+            - Windows
+            - macOS
+            - Linux
+        - Bedrock
+            - Windows
+            - Mobile
+            - Console
+                - PlayStation
+                - Xbox
+                - Wii
+                - Switch
+                - ... (are there any more that we missed? rPi?)
+- Foundation (More for builders to get in the flow of things, should be next step after Onboarding)
+    - Building Guidelines
+    - Building Workflow
+        - Choosing Singleplayer / Multiplayer?
+- Advanced (Based off old Google Docs and Archive sources)
+    - Builder “Codelabs” (Would be a better alternative to the current state of the Archive)
+    - Tips (like Python “Tricks”)
+    - Server Setup
+    - Technical Guide (not sure how much of the existing Tech Guide is usable content)
+- FAQ (It’s at the end of the guide for a reason. Everything else should be answered by the guide itself.)
