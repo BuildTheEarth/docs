@@ -1,12 +1,14 @@
 <!---
 title: Contributing to the Docs
 path: /onboarding/contributing
-version: 1.1.1
+version: 1.1.2
 last-updated: 
 authors:
   - @ezraen1
 --->
-``` .. todo:: Refactor links to utilise RCM's impl of extlink (path/to/document:heading) bc long relative links are a no-no
+```eval_rst
+.. todo:: Refactor links to utilise RCM's impl of extlink (path/to/document:heading) bc long relative links are a no-no
+.. todo:: Investigate image alt-text being rendered alongside image
 ```
 Contributing to the Docs
 =======================
