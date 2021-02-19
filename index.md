@@ -21,7 +21,7 @@ Welcome to the Build The Earth: Guide!
 ```eval_rst
 .. toctree::
    :maxdepth: 2
-   :caption: Archive
+   :caption: Archive (Builder's Guidebook)
 
    Archive <archive/index>
 .. no idea why but the link renaming just dies here
