@@ -1,0 +1,31 @@
+name: trigger-bteguide-fetch
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Trigger bteguide-fetch at bteguide-site
+jobs:
+  trigger-build:
+    runs-on: ubuntu-latest
+    steps:
+      - shell: bash
+        env:
+          PA_TOKEN: ${{ secrets.PA_TOKEN }}
+        run: |
+          curl \
+            -X POST \
+            -H "Accept: application/vnd.github.v3+json" \
+            -H "Content-Type: application/json" \
+            -H "Authorization: token $PA_TOKEN" \
+            https://api.github.com/repos/EzraEn1/bteguide-site/actions/workflows/main.yml/dispatches \
+            --data '{"ref": "main"}'
+
+        
