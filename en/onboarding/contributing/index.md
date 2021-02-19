@@ -8,7 +8,6 @@ authors:
 --->
 ```eval_rst
 .. todo:: Refactor links to utilise RCM's impl of extlink (path/to/document:heading) bc long relative links are a no-no
-.. todo:: Investigate image alt-text being rendered alongside image
 ```
 Contributing to the Docs
 =======================
