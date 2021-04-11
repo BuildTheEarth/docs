@@ -1,3 +1,4 @@
+![BTE Docs Logo](./bte_docs.png)
 # BuildTheEarth Guide
 
 This is the source of documentation for our [ReadTheDocs](https://bte.rtfd.io).
