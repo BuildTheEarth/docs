@@ -1,7 +1,7 @@
 <!---
 title: Contributing to the Docs
 path: /onboarding/contributing
-version: 1.1.2
+version: 1.2.0
 last-updated: 
 authors:
   - @ezraen1
@@ -72,7 +72,7 @@ To begin work on a new language, simply create a new folder named after your tar
 Additions to the Metadata
 -------------------------
 
-Building off of the [Writing Text](#writing-text) section, translation requires the use of a [slightly different template page](/_sources/bteguide/en/onboarding/contributing/translated-template-page.md.txt).
+Building off of the [Writing Text](#writing-text) section, translation requires the use of a [slightly different template page](/_sources/en/onboarding/contributing/translated-template-page.md.txt).
 
 Unlike the [regular template page](./using-template.md), the template metadata is slightly different for many good reasons, most of all to help translators keep track of their translations across source material changes. All other metadata not explicitly declared here should not be modified from the source document for management's sake.
 
@@ -84,15 +84,15 @@ Unlike the [regular template page](./using-template.md), the template metadata i
 - Simplified Chinese: `zh-CN`
 - Traditional Chinese: `zh-TW`
 
-  Should there be any macrolanguage exceptions not accounted for, please open a GitHub issue accordingly.
+  Should there be any macrolanguages not accounted for, please open a GitHub issue accordingly.
 
 ### Translation Version `lang-version:`
 
-  This is the version of your translation. Following the standards set out in the regular [metadata format](./using-template.html#document-version-version), this language-specific version operates independently of the source version value. When the source is updated, this version should be reset to `1.0.0` to reflect that the translation target has changed. Of course, already translated content need not reset accordingly.
+  This is the version of your translation. Following the standards set out in the regular [metadata format](./using-template:document-version-version), this language-specific version operates independently of the source version value. When the source is updated, this version should be reset to `1.0.0` to reflect that the translation target has changed. Of course, already translated content need not reset accordingly.
 
 ### Translator List `translators:`
 
-Yes, translators get a chunk of the recognition pie too! Add your Github Handle to the list, and your alternate name if we know you by any other name, the format is exactly the same as the [Author List](./using-template.html#author-list-authors)
+Yes, translators get a chunk of the recognition pie too! Add your Github Handle to the list, and your alternate name if we know you by any other name, the format is exactly the same as the [Author List](./using-template:author-list-authors)
 
 Shortcomings of the Workflow
 ----------------------------
@@ -101,36 +101,11 @@ The unfortunate result of trying to flatten and simplify both the document writi
 - Translated documents are correctly linked to their source documents (via language switcher)
 - Untranslated document links are properly redirected/shown their updated source equivalents.
 
-If you have any ideas as to how we can resolve these issues, we have a Discussion ongoing in the Github repo.
+If you have any ideas as to how we can resolve these issues, contact EzraEn#4291 via the [BTE Discord](https://discord.com/invite/3mrQBYd)!
 
 
 Project Structure
 =================
 
+Visit the [Whimsical](https://whimsical.com/bte-documentation-team-7sqgwwGvGp8RMuSmSGFE2U@2Ux7TurymMr3FyerVfZy)!
 Here we have the basic outline for the rest of the project. Following the outline helps us categorise our content, allowing readers to more easily find what they're looking for.
-
-- Onboarding (First introduction to BTE/BTEGuide)
-    - Installation 
-        - Java
-            - Windows
-            - macOS
-            - Linux
-        - Bedrock
-            - Windows
-            - Mobile
-            - Console
-                - PlayStation
-                - Xbox
-                - Wii
-                - Switch
-                - ... (are there any more that we missed? rPi?)
-- Foundation (More for builders to get in the flow of things, should be next step after Onboarding)
-    - Building Guidelines
-    - Building Workflow
-        - Choosing Singleplayer / Multiplayer?
-- Advanced (Based off old Google Docs and Archive sources)
-    - Builder “Codelabs” (Would be a better alternative to the current state of the Archive)
-    - Tips (like Python “Tricks”)
-    - Server Setup
-    - Technical Guide (not sure how much of the existing Tech Guide is usable content)
-- FAQ (It’s at the end of the guide for a reason. Everything else should be answered by the guide itself.)

@@ -1,7 +1,7 @@
 <!---
 title: Using the Template
 path: /onboarding/contributing/using-template
-version: 1.0.1
+version: 1.0.2
 authors:
     - @ezraen1
 --->
@@ -10,7 +10,7 @@ authors:
 Using the Template
 ===================
 
-The [Template Page](/_sources/bteguide/en/onboarding/contributing/template-page.md.txt) contains the basis of a well-organised document. By following the directives set out within, we set the stage for a well-defined organisational structure for the entire **Guide**.
+The [Template Page](/_sources/en/onboarding/contributing/template-page.md.txt) contains the basis of a well-organised document. By following the directives set out within, we set the stage for a well-defined organisational structure for the entire **Guide**.
 
 The Metadata
 ------------
@@ -28,7 +28,7 @@ authors:
 
 The most important component of a standard page is the **Metadata**. It helps us keep track of changes to the documents we're working on, allows us to credit authors and helps translators keep track of what source data they're working with.
 
-Above we see a sample template for the metadata that should be present in every source file (any document not _being_ translated).
+Above we see a sample template for the metadata that should be present in every source file (any non-translation document).
 The components present are as listed:
 
 ### Document Title `title:`
@@ -103,7 +103,7 @@ Using *single asterisks* for italicisation/emphasis and **double asterisks** for
 
 ### Tables
 
-Following [GitHub-style Markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf), this RTFD has Markdown tables enabled.
+Following [GitHub-style Markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf), this ReadTheDocs has Markdown tables enabled.
 
 ```markdown
 First Header | Second Header
