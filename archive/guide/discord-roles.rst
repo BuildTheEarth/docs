@@ -349,7 +349,7 @@ This role is given to people that broke the rules of the Discord by Moderator_\s
 DJ
 +++
 
-Has control over the `Groovy bot`_ in the music channel without having to rely on the majority vote.
+Has control over the `Groovy bot` in the music channel without having to rely on the majority vote.
 This role is reserved for staff members.
 
 Bot
