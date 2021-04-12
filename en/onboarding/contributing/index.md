@@ -8,6 +8,7 @@ authors:
 --->
 ```eval_rst
 .. todo:: Refactor links to utilise RCM's impl of extlink (path/to/document:heading) bc long relative links are a no-no
+.. todo:: Update images, repo no longer called bteguide
 ```
 Contributing to the Docs
 =======================
@@ -25,7 +26,7 @@ Setting up the environment
 --------------------------
 
 ![How to Fork](forking.png)
-After you have created a Github account click the **Fork** button in the top right of the [BTEGuide Github repo](https://github.com/EzraEn1/bteguide). This will create a copy of the whole wiki project on your own Github account. You can work on this copy without affecting any of the main wiki.
+After you have created a Github account click the **Fork** button in the top right of the [BTE Docs Github repo](https://github.com/BuildTheEarth/docs). This will create a copy of the whole wiki project on your own Github account. You can work on this copy without affecting any of the main wiki.
 
 
 Uploading your Content

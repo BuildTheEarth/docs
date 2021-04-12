@@ -57,7 +57,7 @@ html_theme_options = {
     'navigation_depth': 4,
     #'includehidden': True,
     #'titles_only': False,
-    'github_url': 'https://github.com/BuildTheEarth/bteguide'
+    'github_url': 'https://github.com/BuildTheEarth/docs'
 }
 
 

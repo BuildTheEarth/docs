@@ -2,7 +2,7 @@
 # BuildTheEarth Docs
 
 This is the source of documentation for our [Documentation](https://bte.rtfd.io).
-If you're looking for the Sphinx setup, see the [bteguide-site repo](https://github.com/BuildTheEarth/bteguide-site).
+If you're looking for the Sphinx setup, see the [docs-site repo](https://github.com/BuildTheEarth/docs-site).
 
 Contributing
 ------------

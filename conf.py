@@ -52,7 +52,7 @@ html_theme_options = {
     'analytics_id': 'G-BRFVM1X3NH',  #  Provided by Google in your dashboard
     'analytics_anonymize_ip': False,
     'navigation_depth': 4,
-    'github_url': 'https://github.com/BuildTheEarth/bteguide'
+    'github_url': 'https://github.com/BuildTheEarth/docs'
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,

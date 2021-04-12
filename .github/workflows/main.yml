@@ -1,4 +1,4 @@
-name: trigger-bteguide-fetch
+name: trigger-content-fetch
 
 # Controls when the action will run. 
 on:
@@ -11,7 +11,7 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Trigger bteguide-fetch at bteguide-site
+# Trigger docs-fetch at docs-site repo
 jobs:
   trigger-build:
     runs-on: ubuntu-latest
@@ -25,7 +25,7 @@ jobs:
             -H "Accept: application/vnd.github.v3+json" \
             -H "Content-Type: application/json" \
             -H "Authorization: token $PA_TOKEN" \
-            https://api.github.com/repos/BuildTheEarth/bteguide-site/actions/workflows/main.yml/dispatches \
+            https://api.github.com/repos/BuildTheEarth/docs-site/actions/workflows/main.yml/dispatches \
             --data '{"ref": "main"}'
 
         
