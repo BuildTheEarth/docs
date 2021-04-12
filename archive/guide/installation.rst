@@ -65,14 +65,14 @@ Installing Optifine
 ~~~~~~~~~~~~~~~~~~~~~~~~
 This section is split into parts based on how you installed the modpack. Use the sidebar to navigate to each one.
 
-Before starting, download the most recent version of Optifine 1.12.2 from `here <https://optifine.net/downloads>`_
+Before starting, download the most recent version of Optifine 1.12.2 from `here. <https://optifine.net/downloads>`_
 
 Automated Installer
 +++++++++++++++++++
 Use the section corresponding to your operating system to install optifine.
 
 Windows
-""""""
+"""""""
 
 #. Open up your :code:`.buildtheearth` folder. Press :code:`Win + R`, paste :code:`%AppData%/.buildtheearth` , and press enter.
 #. Go into the :code:`mods` folder.
@@ -93,7 +93,7 @@ Linux
 #. Go into the :code:`mods` folder.
 #. Move or copy the Optifine jar from the download location to the folder.
 
-MultiMC
+h2MultiMC
 +++++++
 
 #. Open MultiMC, click the :code:`Build the Earth` profile, and press :code:`Edit Instance`
@@ -101,16 +101,16 @@ MultiMC
 #. Naviage to where you downloaded Optifine, and double click it.
 #. You're done!
 
-Forge
+h2Forge
 +++++
-Windows
-""""""
+h2Windows
+"""""""
 
 #. Open up your :code:`.minecraft` folder. Press :code:`Win + R`, paste :code:`%AppData%/.minecraft` , and press enter.
 #. Go into the :code:`mods` folder.
 #. Move or copy the Optifine jar from the download location to the folder.
 
-Mac
+h2Mac
 """"
 
 #. Open up your :code:`.minecraft` folder. Open Spotlight with :code:`⌘ + Space`, paste :code:`~/Library/Application Support/minecraft` , and press enter.
@@ -118,7 +118,7 @@ Mac
 #. Move or copy the Optifine jar from the download location to the folder.
 
 
-Linux
+h2Linux
 """"""
 
 #. Open up your :code:`.minecraft` folder. Navigate to your main directory and go into :code:`.minecraft`
