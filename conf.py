@@ -25,7 +25,12 @@ extensions = [
     'sphinx_markdown_tables'
 ]
 
-
+todo_include_todos = True
+todo_emit_warnings = True
+autosectionlabel_prefix_document = True
+extlinks = {
+    'bte': ('https://buildtheearth.net/%s', 'BuildTheEarth %s')
+}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['../common/_templates']
@@ -64,10 +69,13 @@ html_favicon = '../common/_static/img/logo.png'
 html_title = "Build The Earth Docs"
 html_short_title = "BTEDocs"
 
+rst_prolog = """
+.. include:: /../common/.textstyles.rst
+"""
+
 def setup(app):
     app.add_config_value('recommonmark_config', {
             #'url_resolver': lambda url: github_doc_root + url,
-            #'auto_toc_tree_section': 'Contents',
             'enable_math': False,
             'enable_inline_math': False,
             'enable_eval_rst': True,
