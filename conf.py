@@ -6,7 +6,8 @@
 
 import recommonmark
 from recommonmark.transform import AutoStructify
-
+from sphinx_markdown_parser.parser import MarkdownParser
+from recommonmark.parser import CommonMarkParser
 
 #'''PROJECT INFORMATION'''
 project = 'Build The Earth Docs'
