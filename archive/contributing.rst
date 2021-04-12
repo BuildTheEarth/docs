@@ -56,14 +56,12 @@ Shift + Right-click in the folder and open the Terminal/Powershell. A Terminal w
 **If you are using git for the first time** you will need to register your name and your e-mail address. This is essential for your collaborators to identify which changes are made by you. Type in the following commands (use the middle mouse button to paste a copied text into the git console):
 
 .. code-block:: 
-
     git config --global user.name "Your Username" 
     git config --global user.name
 
 If everything is correct your username should be returned to you after the second command.
 
 .. code-block:: 
-
     git config --global user.email "email@example.com"
     git config --global user.email
 
@@ -72,7 +70,6 @@ Again, your e-mail address should be returned after the second command.
 We can now **clone your github repository** and connect it to the main wiki for synchronization.
 
 .. code-block:: 
-
     git clone [your link]
     cd .\bteguide
     git remote add upstream https://github.com/EzraEn1/bteguide.git

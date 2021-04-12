@@ -35,19 +35,16 @@ Possible Fix:
 2.a. (Windows) Paste in this text 
 
 .. code-block:: 
-
     %AppData%\.buildtheearth\options.txt
 
 2.b. (MacOS) Paste in this text
 
 .. code-block::
-
     ~/Library/Application/Support/.buildtheearth/options.txt
 
 2.c. (Linux) Paste in this text, and then go to Step 6
 
 .. code-block::
-
     sed 's/fullscreen:true/fullscreen:false/' ~/.buildtheearth/options.txt
 
 3. Press "Ctrl+F."
