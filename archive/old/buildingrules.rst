@@ -27,17 +27,17 @@ See the  `Discord <https://discord.gg/buildtheearth>`_  #rules for more informat
 Things you are allowed to do but might be unsure about
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * You are allowed to **change the building outlines** and roads sizes to make them look more like the real world (remember that outlines that are completely wrong should be edited in :ref:`OSM <osmdoc>` first.)
-* You are allowed to `change the biome`_ to fit the biome in real life.
+* You are allowed to `change the biome` to fit the biome in real life.
     * The biomes are randomly generated, so they are not going to be close to how it is in real life.
-* Trees, caves, grass and some terrain blocks (example water) are generated automatically, and you can `change these`_.
+* Trees, caves, grass and some terrain blocks (example water) are generated automatically, and you can `change these`.
 * You are allowed to use **custom heads** for detailing.
-* You are allowed to use mods that **create buildings from an api**. This is basically a program/mod that creates the outlines from the information online. Always double check the buildings after you are done. Here are some mods that might help: `Building outlines/ shells`_.
+* You are allowed to use mods that **create buildings from an api**. This is basically a program/mod that creates the outlines from the information online. Always double check the buildings after you are done. Here are some mods that might help: `Building outlines/ shells`.
     * We're looking to get API building rolled out to the entire community in the future
 * You can build cars if you keep them in the right scale.
 
 Lesser know blocks that you are allowed to use:
 
-* `Custom heads, custom banners, structure blocks, double sandstone slab, double smooth stone slab`_.
+* `Custom heads, custom banners, structure blocks, double sandstone slab, double smooth stone slab`.
 
 
 Things that you are :under:`not` allowed to use/do:

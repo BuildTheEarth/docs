@@ -249,7 +249,7 @@ Here is a list of the Messages needed for each level:
   12         2455
   13         2915
   14         3415
-  15         3955   `#pictures <#pictures-role>`_  
+  15         3955   `2#pictures <#pictures-role>`_  
   16         4535
   17         5155
   18         5815
@@ -351,7 +351,7 @@ This role is given to people that broke the rules of the Discord by Moderator_\s
 DJ
 +++
 
-Has control over the `Groovy bot`_ in the music channel without having to rely on the majority vote.
+Has control over the `Groovy bot` in the music channel without having to rely on the majority vote.
 This role is reserved for staff members.
 
 Bot

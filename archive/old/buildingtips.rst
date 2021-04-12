@@ -43,7 +43,7 @@ You can find thousands of heads in the `Minecraft Head Gallery <https://minecraf
 #. Custom heads can be places on the side and on top of blocks (see picture).
 #. A good idea is to spawn in a stack of them, and then just adding them to a chest for easy access, so you can avoid using the command block over and over again.
 
-See also `List of useful Minecraft heads and banners`_
+See also `List of useful Minecraft heads and banners`
 
 
 Custom banners
@@ -61,7 +61,7 @@ Custom banners are used almost in the same way as custom heads. Find the design 
 #. You are ready to place!
 #. A good idea is to spawn in a stack of them, and then just adding them to a chest for easy access, so you can avoid using the command block over and over again.
 
-See also `List of useful Minecraft heads and banners`_
+See also `List of useful Minecraft heads and banners`
 
 
 Other blocks only spawnable with commandblock or WorldEdit
@@ -174,7 +174,7 @@ Lamp posts
     | with a daylight sensor on trapdoor                               |
     +--------------------------+---------------------------------------+
 
-.. table:: A Minecraft `head`_ (banana bunch) on top of iron bars and cobble wall
+.. table:: A Minecraft `head` (banana bunch) on top of iron bars and cobble wall
 
     +--------------------------+---------------------------------------+
     |.. image:: img/image37.png|             .. image:: img/image9.png |
@@ -206,11 +206,12 @@ How to lower or raise
     |1. Find the location you want to change.                                                               |.. image:: img/image15.png|    
     |2. do ``//sel poly`` to select the wand that marks regions that are not your usual square or rectangle.|                          |
     |3. Mark the entire area you want to change, i have marked them with diamonds here to show where i mark |                          |
+    |                                                                                                       |                          |
     +-------------------------------------------------------------------------------------------------------+--------------------------+
     |4. Stand still and do the ``//copy -m [blocks]`` command to select the blocks you want to move up.     |.. image:: img/image34.png|
     |   I use ``//copy -m 208,2,45,251:7``                                                                  |                          |
-    |\This will copy all the blocks that are part of the generation, paths, grass, bricks and roads.        |                          |
     |                                                                                                       |                          |
+    |\This will copy all the blocks that are part of the generation, paths, grass, bricks and roads.        |                          |
     +-------------------------------------------------------------------------------------------------------+--------------------------+
     |5. Place the same amount of blocks that you want to raise the floor below you.                         |.. image:: img/image26.png|
     |   So i want to raise it up by one block, so i place one block below me.                               |                          |
@@ -237,6 +238,7 @@ Thanks to mcnoided#4059 for this great tip
     |   done, so do not change your selection unless stated otherwise.**                                     |                          |
     |2. Then you do ``//replace !208,45,251:7 0`` This will turn all the blocks that aren't path, brick or   |                          |
     |   gray concrete to air.                                                                                |                          |
+    |                                                                                                        |                          |
     |*If you are doing a terrain with different terrain levels, you will have to use Google Earth to mark    |                          |
     |where the elevation changes and connect each layers points with ``//curve`` in ``//sel convex`` or      |                          |
     |``//line`` in the default ``//sel cuboid``, and then fill in the missing terrain with ``//fill``.*      |                          |
@@ -245,6 +247,7 @@ Thanks to mcnoided#4059 for this great tip
     |   concrete powder, sand or gravel. I use gravel for bricks, sand for paths, and concrete powder for the|                          |
     |   roads. It is important that you do different gravity blocks for different blocks. So these are the   |                          |
     |   commands i write in:                                                                                 |                          |
+    |                                                                                                        |                          |
     |.. code-block:: batch                                                                                   |                          |
     |                                                                                                        |                          |
     |   //replace 251:7 252:7                                                                                |                          |
@@ -254,6 +257,7 @@ Thanks to mcnoided#4059 for this great tip
     |4. Once you have done all the different blocks, you want to add another point to your region selection  |.. image:: img/image41.png|    
     |   in the ground which the terrain is going to be on. At this point, you are going to add one block     |                          |
     |   below the gravity blocks. These are the commands i use for that:                                     |                          |
+    |                                                                                                        |                          |
     |.. code-block:: batch                                                                                   |                          |
     |                                                                                                        |                          |
     |   //replace <252:7 251:7                                                                               |                          |

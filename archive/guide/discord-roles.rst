@@ -239,17 +239,17 @@ Here is a list of the Messages needed for each level:
    2           55
    3          115    Member_
    4          215
-   5          355   `#memes <#memes-role>`_
+   5          355   `2#memes <#memes-role>`_
    6          535
    7          755
-   8         1015   `#music <#music-role>`_
+   8         1015   `2#music <#music-role>`_
    9         1315
-  10         1655   `#minigames <#minigames-role>`_
+  10         1655   `2#minigames <#minigames-role>`_
   11         2035
   12         2455
   13         2915
   14         3415
-  15         3955   `#pictures <#pictures-role>`_  
+  15         3955   `2#pictures <#pictures-role>`_  
   16         4535
   17         5155
   18         5815
@@ -359,3 +359,17 @@ This role signifies a non-human. This can either be a bot or a staff member that
 
 hepboat
 +++++++
+
+.. _Discord: https://discord.gg/3mrQBYd
+.. _Patreon: https://www.patreon.com/user?u=32447854
+.. _website: https://buildtheearth.net/
+.. _`suggestion message`: https://discordapp.com/channels/690908396404080650/692251560981430292/711990012316483605
+.. _`PipNotif message`: https://discordapp.com/channels/690908396404080650/715369975035985970/715427350392602698
+.. _`Support Application`: https://docs.google.com/forms/d/e/1FAIpQLSfgxWkOcTp_cbZGCPJFtiV4JBBwO4bMViWjFqTf43w1SacbWg/viewform
+.. _`Helper Application`: https://docs.google.com/forms/d/e/1FAIpQLSdw8Cy4Xp4Lp_T_95fvEqgns8Nmd_1TSq007_029EjZCEeU3w/viewform
+.. _`Dev Application`: https://docs.google.com/forms/d/e/1FAIpQLSfdiPx_tu6yuWyvLN568u0nOfuADHToQlN8TzlDkThp_w5qig/viewform
+.. _`PR Application`: https://docs.google.com/forms/d/e/1FAIpQLSduKK65NdANbHuOW3YAsKk4Thz4Ai958CFxsiI2RQnDc9VNYg/viewform
+.. _`Reviewer Application`: https://docs.google.com/forms/d/e/1FAIpQLScXjVj2AvUeyYh2tHqdalsvPbwmp5lnS_ks588paGPGXyzKDA/viewform
+.. _`Tester Application`: https://forms.gle/q6wd1QEDdMqcXkXF8
+.. _`Creator Application`:  https://docs.google.com/forms/d/1xFyjYFFOSJ4c0pyFEPFdf-MGl8XaDiZ4uDdq4AdUvEc/viewform
+

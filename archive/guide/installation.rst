@@ -94,7 +94,7 @@ Linux
 #. Move or copy the Optifine jar from the download location to the folder.
 
 h2MultiMC
-+++++++
++++++++++
 
 #. Open MultiMC, click the :code:`Build the Earth` profile, and press :code:`Edit Instance`
 #. Click the :code:`Loader Mods` tab, and then :code:`Add` on the top right.
@@ -102,16 +102,16 @@ h2MultiMC
 #. You're done!
 
 h2Forge
-+++++
++++++++
 h2Windows
-"""""""
+"""""""""
 
 #. Open up your :code:`.minecraft` folder. Press :code:`Win + R`, paste :code:`%AppData%/.minecraft` , and press enter.
 #. Go into the :code:`mods` folder.
 #. Move or copy the Optifine jar from the download location to the folder.
 
 h2Mac
-""""
+"""""
 
 #. Open up your :code:`.minecraft` folder. Open Spotlight with :code:`⌘ + Space`, paste :code:`~/Library/Application Support/minecraft` , and press enter.
 #. Go into the :code:`mods` folder.
@@ -119,7 +119,7 @@ h2Mac
 
 
 h2Linux
-""""""
+"""""""
 
 #. Open up your :code:`.minecraft` folder. Navigate to your main directory and go into :code:`.minecraft`
 #. Go into the :code:`mods` folder.

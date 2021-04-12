@@ -88,7 +88,7 @@ This will install all packages you need to work on the wiki.
 Congratulations! You are now set up and can start working on the wiki documents. 
 
 h2Contributing to the wiki
-------------------------
+--------------------------
 
 To contribute directly to the source files, find them in ``/source/``. 
 If you are looking to create a new document, make sure the corresponding ``index.rst`` for it's directory includes it in it's `toctree` directive. This applies whether you choose to write in Markdown or reStructuredText (preferred). You might want to check out these resources.
@@ -158,7 +158,7 @@ Once that's done, you will find the .po files in ``/locale/xx/``.
    The first thing to do before you start the day or (if you are translating into multiple languages) to switch languages is to synchronize your local copy of the repository to the remote master file. This will download all changes that have been made by your collegues.
    Open your command terminal in the **bteguide** folder and run:
 
-   .. code-block::
+   .. code-block:: batch
 
       git checkout lang-xx 
       git pull origin\lang-xx
@@ -180,7 +180,7 @@ Once that's done, you will find the .po files in ``/locale/xx/``.
    After you have worked on a .po file and made your translations you need to store your changes in a commit. Commits are progress packages that enable us to revert to any former version of the project if anything goes wrong.
    Save the changes in the file and then open your command terminal in the folder.
 
-   .. code-block::
+   .. code-block:: batch
 
       git add [filename]
       git commit -m [commit message]
@@ -192,7 +192,7 @@ Once that's done, you will find the .po files in ``/locale/xx/``.
 
    Finally, you need to make your commits available for collaborators. For this you need to push your commits onto a Github repository. Your commits will be pushed onto your personal project fork first:
 
-   .. code-block::
+   .. code-block:: batch
 
       git pull lang-xx
       git push lang-xx
