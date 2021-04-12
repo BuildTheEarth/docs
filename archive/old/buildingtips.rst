@@ -244,7 +244,7 @@ Thanks to mcnoided#4059 for this great tip
     |   concrete powder, sand or gravel. I use gravel for bricks, sand for paths, and concrete powder for the|                          |
     |   roads. It is important that you do different gravity blocks for different blocks. So these are the   |                          |
     |   commands i write in:                                                                                 |                          |
-    |.. code-block::                                                                                         |                          |
+    |.. code-block:: batch                                                                                         |                          |
     |                                                                                                        |                          |
     |   //replace 251:7 252:7                                                                                |                          |
     |   //replace 45 14                                                                                      |                          |
@@ -253,7 +253,7 @@ Thanks to mcnoided#4059 for this great tip
     |4. Once you have done all the different blocks, you want to add another point to your region selection  |.. image:: img/image41.png|    
     |   in the ground which the terrain is going to be on. At this point, you are going to add one block     |                          |
     |   below the gravity blocks. These are the commands i use for that:                                     |                          |
-    |.. code-block::                                                                                         |                          |
+    |.. code-block:: batch                                                                                         |                          |
     |                                                                                                        |                          |
     |   //replace <252:7 251:7                                                                               |                          |
     |   //replace <14 45                                                                                     |                          |
