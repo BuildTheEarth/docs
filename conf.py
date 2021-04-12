@@ -9,7 +9,7 @@ from recommonmark.transform import AutoStructify
 
 
 '''PROJECT INFORMATION'''
-project = 'Build The Earth: Guide'
+project = 'Build The Earth Docs'
 author = 'BTE Contributors'
 copyright = '2021, BTE Contributors'
 
@@ -37,24 +37,26 @@ language = 'en'
 
 
 '''HTML OUTPUT OPTIONS'''
-html_theme = 'sphinx_rtd_theme'
+#html_theme = 'sphinx_rtd_theme'
+#html_theme_path = ['../theme/'] # Custom Theme, keep away if you don't know what you're doing
 ## The theme to use for HTML and HTML Help pages. See the documentation for a list of builtin themes.
 
 html_theme_options = {
     'analytics_id': 'G-BRFVM1X3NH',  #  Provided by Google in your dashboard
     'analytics_anonymize_ip': False,
     #'logo_only': False,
-    'display_version': True,
-    'prev_next_buttons_location': 'bottom',
+    #'display_version': True,
+    #'prev_next_buttons_location': 'bottom',
     #'style_external_links': False,
-    'vcs_pageview_mode': '',
+    #'vcs_pageview_mode': '',
     #'style_nav_header_background': 'white',
     # Toc options
-    'collapse_navigation': True,
-    'sticky_navigation': True,
+    #'collapse_navigation': True,
+    #'sticky_navigation': True,
     'navigation_depth': 4,
     #'includehidden': True,
-    'titles_only': False
+    #'titles_only': False,
+    'github_url': 'https://github.com/BuildTheEarth/bteguide'
 }
 
 
@@ -67,9 +69,9 @@ html_css_files = [
     'css/custom.css'
 ]
 
-html_favicon = '../common/_static/img/BTELogo.gif'
-html_title = "Build The Earth Guide"
-html_short_title = "BTEGuide"
+html_favicon = '../common/_static/img/logo.png'
+html_title = "Build The Earth Docs"
+html_short_title = "BTEDocs"
 html_last_updated_fmt = ""
 
 
@@ -100,7 +102,7 @@ extensions = [
 todo_include_todos = True
 todo_emit_warnings = True
 extlinks = {
-    'bte': ('https://buildtheearth.net/%s', 'Website ')
+    'bte': ('https://buildtheearth.net/%s', 'BuildTheEarth')
 }
 autosectionlabel_prefix_document = True
 ## Extension Options.
