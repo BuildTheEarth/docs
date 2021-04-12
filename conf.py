@@ -8,7 +8,7 @@ import recommonmark
 from recommonmark.transform import AutoStructify
 
 
-'''PROJECT INFORMATION'''
+#'''PROJECT INFORMATION'''
 project = 'Build The Earth Docs'
 author = 'BTE Contributors'
 copyright = '2021, BTE Contributors'
@@ -17,7 +17,7 @@ release = '2.0.0'
 ## The full version, including alpha/beta/rc tags
 
 
-'''GENERAL CONFIGURATION'''
+#'''GENERAL CONFIGURATION'''
 templates_path = ['../common/_templates']
 ## Add any paths that contain templates here, relative to this directory.
 
@@ -28,7 +28,7 @@ templates_path = ['../common/_templates']
 
 
 
-'''INTERNATIONALIZATION OPTIONS'''
+#'''INTERNATIONALIZATION OPTIONS'''
 language = 'en'
 
 #locale_dirs = ['locale/']   # path is example but recommended.
@@ -36,8 +36,8 @@ language = 'en'
 ## Deprecated due to custom language handling.
 
 
-'''HTML OUTPUT OPTIONS'''
-#html_theme = 'sphinx_rtd_theme'
+#'''HTML OUTPUT OPTIONS'''
+html_theme = 'sphinx_rtd_theme'
 #html_theme_path = ['../theme/'] # Custom Theme, keep away if you don't know what you're doing
 ## The theme to use for HTML and HTML Help pages. See the documentation for a list of builtin themes.
 
@@ -75,26 +75,26 @@ html_short_title = "BTEDocs"
 html_last_updated_fmt = ""
 
 
-'''rST BUILD OPTIONS'''
+#'''rST BUILD OPTIONS'''
 rst_prolog = """
 .. include:: /../common/.textstyles.rst
 """
 ## rST Header include. 
 ## Messes with warning output far too much right now to be justifiable until the right suppress_warnings option is available.
 
-'''GENERAL BUILD OPTIONS'''
+#'''GENERAL BUILD OPTIONS'''
 keep_warnings = True
 suppress_warnings = [
     #'ref.ref'
 ]
 
-'''EXTENSION CONFIGURATION'''
+#'''EXTENSION CONFIGURATION'''
 extensions = [
     'recommonmark',
     'sphinx.ext.todo',
     'sphinx.ext.extlinks',
     'sphinx.ext.autosectionlabel',
-    'sphinx.ext.duration',
+    #'sphinx.ext.duration',
     'sphinx_markdown_tables'
 ]
 ## Add any Sphinx extension module names here, as strings. They can be extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
