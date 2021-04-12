@@ -91,7 +91,8 @@ suppress_warnings = [
 
 #'''EXTENSION CONFIGURATION'''
 extensions = [
-    'recommonmark',
+    'sphinx_markdown_parser',
+    #'recommonmark',
     'sphinx.ext.todo',
     'sphinx.ext.extlinks',
     'sphinx.ext.autosectionlabel',
@@ -113,6 +114,7 @@ def setup(app):
         def visit_document(self, node):
             pass
     
+    app.add_source_suffix('.md', 'markdown')
     app.add_source_parser(CustomCommonMarkParser)
     app.add_config_value('recommonmark_config', {
         #'url_resolver': lambda url: github_doc_root + url,
