@@ -107,11 +107,14 @@ extlinks = {
 autosectionlabel_prefix_document = True
 ## Extension Options.
 
-github_doc_root = 'https://github.com/rtfd/recommonmark/tree/master/doc/'
 def setup(app):
     app.add_config_value('recommonmark_config', {
-            'url_resolver': lambda url: github_doc_root + url,
-            'auto_toc_tree_section': 'Contents',
-            }, True)
+        #'url_resolver': lambda url: github_doc_root + url,
+        #'auto_toc_tree_section': 'Contents',
+        'enable_math': False,
+        'enable_inline_math': False,
+        'enable_eval_rst': True,
+        'enable_auto_doc_ref': True,
+    }, True)
     app.add_transform(AutoStructify)
 # Sets AutoStructify up, enables a lot of great features not present in CommonMark (but present in ReCommonMark).
