@@ -108,6 +108,11 @@ autosectionlabel_prefix_document = True
 ## Extension Options.
 
 def setup(app):
+    class CustomCommonMarkParser(CommonMarkParser):
+        def visit_document(self, node):
+            pass
+    
+    app.add_source_parser(CustomCommonMarkParser)
     app.add_config_value('recommonmark_config', {
         #'url_resolver': lambda url: github_doc_root + url,
         #'auto_toc_tree_section': 'Contents',
