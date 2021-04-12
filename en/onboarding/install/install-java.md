@@ -1,10 +1,11 @@
----
+<!---
 title: Java Edition Installation
 path: /onboarding/install/install-java
-version: 1.0.0
+version: 1.0.1
 authors:
     - "@cAtte_"
----
+    - "@ezraen1"
+--->
 
 # Java Edition Installation
 
